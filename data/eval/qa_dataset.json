@@ -1,0 +1,627 @@
+[
+  {
+    "question":"Halueval được tạo ra để làm gì?",
+    "answer":"Halueval là một chuẩn đánh giá quy mô lớn về hiện tượng ảo giác cho các mô hình ngôn ngữ lớn.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Có bao nhiêu nhà nghiên cứu đã tham gia vào công trình này?",
+    "answer":"Có sáu nhà nghiên cứu đã tham gia vào công trình này.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Đại học Renmin của Trung Quốc tham gia vào nghiên cứu này như thế nào?",
+    "answer":"Đại học Renmin của Trung Quốc tham gia thông qua Trường Trí tuệ Nhân tạo Gaoling, Trường Thông tin và Phòng thí nghiệm trọng điểm Bắc Kinh về Quản lý và Phân tích Dữ liệu Lớn.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Các mô hình ngôn ngữ lớn như ChatGPT có xu hướng tạo ra lỗi gì?",
+    "answer":"Các mô hình ngôn ngữ lớn như ChatGPT có xu hướng tạo ra các ảo giác (hallucinations).",
+    "question_type":"factual"
+  },
+  {
+    "question":"Nội dung do các mô hình ngôn ngữ lớn tạo ra được coi là 'ảo giác' khi nào?",
+    "answer":"Nội dung được coi là 'ảo giác' khi nó mâu thuẫn với nguồn hoặc không thể xác minh bằng kiến thức thực tế.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mục đích của việc giới thiệu tiêu chuẩn đánh giá 'hallucination evaluation benchmark' là gì?",
+    "answer":"Mục đích là để hiểu rõ hơn về các loại nội dung và mức độ mà các mô hình ngôn ngữ lớn có xu hướng tạo ra ảo giác.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Halueval là gì?",
+    "answer":"Halueval là một tập hợp lớn các mẫu ảo giác được tạo và chú thích bởi con người, dùng để đánh giá khả năng nhận biết ảo giác của các mô hình ngôn ngữ lớn.",
+    "question_type":"factual"
+  },
+  {
+    "question":"ChatGPT có dễ tạo ra thông tin sai lệch hay không?",
+    "answer":"Có vẻ như ChatGPT có khả năng tạo ra thông tin sai lệch, cụ thể là khoảng 19.5% các phản hồi chứa nội dung bịa đặt.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Những phương pháp nào có thể giúp các mô hình ngôn ngữ lớn (LLM) nhận biết ảo giác tốt hơn?",
+    "answer":"Việc cung cấp kiến thức bên ngoài hoặc thêm các bước suy luận có thể giúp các mô hình ngôn ngữ lớn nhận biết ảo giác tốt hơn.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Sự ra đời của các mô hình ngôn ngữ lớn (LLMs) đã tác động như thế nào đến lĩnh vực xử lý ngôn ngữ tự nhiên (NLP)?",
+    "answer":"Sự ra đời của các mô hình ngôn ngữ lớn (LLMs) đã tạo ra một sự thay đổi mô hình trong lĩnh vực xử lý ngôn ngữ tự nhiên (NLP).",
+    "question_type":"factual"
+  },
+  {
+    "question":"Điều gì khiến các mô hình ngôn ngữ lớn (LLMs) trở nên quan trọng trong nhiều sản phẩm được hàng triệu người dùng sử dụng?",
+    "answer":"Khả năng ngôn ngữ vượt trội của chúng đã khiến LLMs trở thành cốt lõi trong nhiều sản phẩm được hàng triệu người dùng sử dụng.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mặc dù có những khả năng nổi bật, các mô hình ngôn ngữ lớn (LLMs) vẫn có thể gặp phải vấn đề gì?",
+    "answer":"Các mô hình ngôn ngữ lớn (LLMs) có thể dễ bị tạo ra các nội dung 'ảo' (hallucination generations) trong nhiều ứng dụng khác nhau.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Vấn đề tạo ra nội dung ảo giác (hallucination) có thể gây ra rủi ro gì khi triển khai các mô hình ngôn ngữ lớn (LLMs)?",
+    "answer":"Vấn đề tạo ra nội dung ảo giác có thể làm cho việc triển khai các mô hình ngôn ngữ lớn trở nên rủi ro trong các ứng dụng thực tế.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Các nghiên cứu hiện tại chủ yếu tập trung vào việc gì liên quan đến hiện tượng tạo nội dung ảo giác của các mô hình ngôn ngữ?",
+    "answer":"Các nghiên cứu hiện tại chủ yếu tập trung vào việc điều tra nguyên nhân của hiện tượng tạo nội dung ảo giác (hallucination) đối với các tác vụ cụ thể và các mô hình ngôn ngữ nhỏ.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"HALUEVAL bao gồm bao nhiêu truy vấn người dùng chung và bao nhiêu ví dụ cụ thể cho từng nhiệm vụ?",
+    "answer":"HALUEVAL bao gồm 5.000 truy vấn người dùng chung và 30.000 ví dụ cụ thể cho từng nhiệm vụ.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Tại sao HALUEVAL lại chọn các truy vấn có độ tương đồng thấp giữa các phản hồi của ChatGPT?",
+    "answer":"HALUEVAL chọn các truy vấn có độ tương đồng thấp giữa các phản hồi của ChatGPT vì độ tương đồng thấp có thể là dấu hiệu cho thấy mô hình đang tạo ra các thông tin sai lệch (hallucination).",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Những nhiệm vụ cụ thể nào được sử dụng trong HALUEVAL để đánh giá các mô hình ngôn ngữ lớn?",
+    "answer":"HALUEVAL sử dụng ba nhiệm vụ cụ thể: trả lời câu hỏi, đối thoại dựa trên tri thức và tóm tắt văn bản.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Theo nghiên cứu gần đây, loại phản hồi nào của mô hình ngôn ngữ lớn (LLM) dễ xuất hiện ảo giác?",
+    "answer":"Ảo giác có khả năng xuất hiện trong các phản hồi khác biệt và mâu thuẫn của mô hình ngôn ngữ lớn (LLM).",
+    "question_type":"factual"
+  },
+  {
+    "question":"Trong quá trình xác định thông tin ảo giác trong phản hồi của ChatGPT, vai trò của người đánh giá (human labelers) là gì?",
+    "answer":"Người đánh giá có vai trò xác định xem phản hồi có chứa thông tin ảo giác hay không và đánh dấu các đoạn văn bản tương ứng chứa thông tin đó.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Dữ liệu truy vấn và phản hồi được đánh dấu bởi người đánh giá được sử dụng để làm gì?",
+    "answer":"Dữ liệu này được sử dụng để phân tích các loại nội dung mà mô hình ngôn ngữ lớn (LLM) có xu hướng tạo ra ảo giác, và có thể được sử dụng cho các mục đích khác nữa.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"ChatGPT được sử dụng để tạo ra các mẫu ảo giác với những kiểu hướng dẫn đặc trưng cho từng nhiệm vụ nào?",
+    "answer":"ChatGPT được sử dụng để tạo ra các mẫu ảo giác với hai kiểu hướng dẫn đặc trưng cho từng nhiệm vụ: onepass và conversational.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Trong quá trình chọn mẫu ảo giác, ChatGPT được sử dụng để làm gì, và điều này ngụ ý gì về quy trình lựa chọn?",
+    "answer":"ChatGPT được sử dụng để lựa chọn các mẫu ảo giác có vẻ hợp lý và khó nhất để đánh giá LLMs. Điều này ngụ ý rằng quy trình lựa chọn bao gồm việc xếp hạng hoặc chấm điểm các mẫu dựa trên tính hợp lý và độ khó của chúng.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Các mẫu ảo giác được tạo ra nhằm mục đích gì đối với LLMs?",
+    "answer":"Các mẫu ảo giác được tạo ra nhằm mục đích thách thức khả năng nhận biết ảo giác của LLMs và phân tích các điểm mù thông tin của chúng.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Những LLM mạnh mẽ nào đã được sử dụng trong các thử nghiệm được đề cập?",
+    "answer":"ChatGPT và GPT-3 là những LLM mạnh mẽ đã được sử dụng trong các thử nghiệm.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Mục đích chính của việc nghiên cứu này là gì?",
+    "answer":"Mục đích chính là nhận diện ảo giác và phân tích các điểm mù thông tin của LLM.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Việc thực hiện các thử nghiệm với LLM giúp hiểu rõ hơn điều gì về hiệu suất của chúng?",
+    "answer":"Việc thực hiện các thử nghiệm với LLM giúp hiểu rõ hơn về hiệu suất của chúng trong việc đánh giá ảo giác.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Khoảng bao nhiêu phần trăm phản hồi từ ChatGPT có khả năng chứa nội dung bịa đặt, không thể kiểm chứng?",
+    "answer":"Khoảng 19,5% phản hồi từ ChatGPT có khả năng chứa nội dung bịa đặt, không thể kiểm chứng.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Các mô hình ngôn ngữ lớn (LLM) có gặp khó khăn trong việc phát hiện thông tin sai lệch do chính chúng tạo ra không?",
+    "answer":"Có, các mô hình ngôn ngữ lớn gặp nhiều khó khăn trong việc phát hiện thông tin sai lệch do chính chúng tạo ra.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Những phương pháp nào có thể giúp cải thiện khả năng nhận biết thông tin sai lệch của các mô hình ngôn ngữ lớn (LLM)?",
+    "answer":"Cung cấp kiến thức rõ ràng và thêm các bước suy luận trung gian có thể cải thiện khả năng nhận biết thông tin sai lệch của các mô hình ngôn ngữ lớn. So sánh các mẫu sai lệch với dữ liệu thực tế có thể làm giảm hiệu suất.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Halueval benchmark chứa những loại mẫu nào?",
+    "answer":"Halueval benchmark chứa rất nhiều mẫu đúng và các mẫu bị hallucination.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Bộ sưu tập các mẫu trong halueval benchmark được tạo ra bằng những cách nào?",
+    "answer":"Bộ sưu tập này được tạo ra bằng hai cách: tạo tự động và chú thích thủ công.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mục tiêu của halueval benchmark là gì?",
+    "answer":"Mục tiêu của halueval là để hiểu loại nội dung nào và mức độ mà LLM có xu hướng hallucination.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Quy trình tạo sinh của chúng tôi bao gồm mấy bước và đó là những bước nào?",
+    "answer":"Quy trình tạo sinh của chúng tôi bao gồm hai bước: 1) lấy mẫu ảo giác đa dạng và 2) lọc ảo giác chất lượng cao.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Công cụ nào được sử dụng để tự động hóa quy trình tạo sinh?",
+    "answer":"ChatGPT được sử dụng để tự động hóa quy trình tạo sinh.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Tại sao cần có các phương pháp lấy mẫu ảo giác khác nhau?",
+    "answer":"Cần có các phương pháp lấy mẫu ảo giác khác nhau vì một văn bản thực tế có thể bị tạo ảo giác từ nhiều khía cạnh khác nhau.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Phương pháp đầu tiên được sử dụng để tạo mẫu đa dạng có tên là gì?",
+    "answer":"Phương pháp đầu tiên được gọi là lược đồ tuân theo hướng dẫn *một lượt*.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Mục đích của việc sử dụng lược đồ *đàm thoại* là gì?",
+    "answer":"Mục đích là để dạy ChatGPT từng bước một, đảm bảo nó nắm vững từng phần của hướng dẫn.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Theo phương pháp thiết kế được đề cập, hướng dẫn lấy mẫu ảo giác bao gồm những phần quan trọng nào?",
+    "answer":"Hướng dẫn lấy mẫu ảo giác bao gồm ba phần quan trọng: mô tả ý định, mẫu ảo giác và trình diễn ảo giác.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Mô tả ý định được sử dụng để làm gì trong quá trình tạo mẫu ảo giác?",
+    "answer":"Mô tả ý định được sử dụng để xác định vai trò của hệ thống và xác định đầu vào và mục tiêu của quá trình tạo mẫu.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mục tiêu chính của việc thiết kế hướng dẫn trong phương pháp này là gì?",
+    "answer":"Mục tiêu chính là thiết kế một hướng dẫn hiệu quả cho ChatGPT để tạo ra các mẫu ảo giác.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Bài báo này tự động tạo ra các mẫu 'ảo giác' cho những tác vụ nào?",
+    "answer":"Bài báo này tự động tạo ra các mẫu 'ảo giác' cho ba tác vụ: trả lời câu hỏi, đối thoại dựa trên tri thức và tóm tắt văn bản.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Những loại mẫu 'ảo giác' nào được xem xét cho tác vụ trả lời câu hỏi?",
+    "answer":"Có bốn loại mẫu 'ảo giác' được xem xét cho tác vụ trả lời câu hỏi: comprehension, factual-ness, specificity và inference.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Số lượng mẫu 'ảo giác' cho tác vụ tóm tắt văn bản là bao nhiêu, và chúng là những loại nào?",
+    "answer":"Có ba loại mẫu 'ảo giác' cho tác vụ tóm tắt văn bản: factual, non-factual và intrinsic.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Có bao nhiêu mẫu được lấy ngẫu nhiên từ tập huấn luyện?",
+    "answer":"30.000 mẫu.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Mục đích của việc tạo ra các 'hallucinated examples' là gì?",
+    "answer":"Để tạo ra dữ liệu nhân tạo hoặc tăng cường dữ liệu hiện có.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Tôi có thể tìm thấy hướng dẫn lấy mẫu ảo giác cho hội thoại và tóm tắt ở đâu?",
+    "answer":"Trong bảng 9-10 ở phụ lục A.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Mục đích của việc thiết kế hướng dẫn lọc ảo giác được tăng cường bằng các câu trả lời thực tế là gì?",
+    "answer":"Để chọn câu trả lời tốt nhất từ hai ứng viên ảo giác.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Trong hướng dẫn lọc, phần trình diễn bao gồm những gì?",
+    "answer":"Phần trình diễn bao gồm câu trả lời đúng thực tế và một câu trả lời ảo giác tương ứng.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Sau khi xem các minh họa, ChatGPT được kỳ vọng sẽ làm gì?",
+    "answer":"Chọn một trong các câu trả lời ảo giác.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Tổng cộng có bao nhiêu mẫu ảo giác đã được tạo ra cho ba nhiệm vụ?",
+    "answer":"Tổng cộng có 30.000 mẫu ảo giác đã được tạo ra.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Mục đích của việc tạo ra các mẫu ảo giác này là gì?",
+    "answer":"Các mẫu ảo giác này được sử dụng để đánh giá khả năng nhận biết ảo giác của các mô hình ngôn ngữ lớn (LLMs).",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Quá trình tạo ra các mẫu ảo giác bao gồm những bước chính nào?",
+    "answer":"Quá trình tạo ra các mẫu ảo giác bao gồm việc lấy mẫu (sampling) và sau đó lọc (filtering).",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Mục đích của việc mời người đánh giá (labelers) là gì?",
+    "answer":"Để đánh giá xem các phản hồi của ChatGPT có chứa nội dung bịa đặt (hallucinated) hay không.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Dữ liệu từ bộ Alpaca được sử dụng cho mục đích gì trong nghiên cứu này?",
+    "answer":"Để huấn luyện hoặc đánh giá các mô hình ngôn ngữ lớn.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Tại sao lại cần sàng lọc trước các truy vấn của người dùng trước khi dán nhãn (labeling)?",
+    "answer":"Để loại bỏ các truy vấn mà mô hình ngôn ngữ lớn (LLM) có khả năng tạo ra thông tin sai lệch (hallucination) cao, từ đó cải thiện độ tin cậy và chính xác của các phản hồi.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"ChatGPT được sử dụng để lấy mẫu bao nhiêu phản hồi cho mỗi truy vấn của người dùng?",
+    "answer":"ChatGPT được sử dụng để lấy mẫu ba phản hồi cho mỗi truy vấn của người dùng.",
+    "question_type":"factual"
+  },
+  {
+    "question":"BERTScore được sử dụng để làm gì trong quy trình này?",
+    "answer":"BERTScore được sử dụng để tính toán độ tương đồng ngữ nghĩa trung bình giữa các phản hồi.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Dấu hiệu nào cho thấy một phản hồi có thể chứa thông tin sai lệch (hallucination)?",
+    "answer":"Thông tin sai lệch có khả năng xuất hiện trong các phản hồi khác biệt và mâu thuẫn.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Những khía cạnh nào được xem xét để đánh giá hiện tượng ảo giác (hallucination)?",
+    "answer":"Hiện tượng ảo giác được xem xét trên ba khía cạnh: không thể kiểm chứng, không đúng sự thật và không liên quan.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Nếu có ba người đánh giá một phản hồi, làm thế nào để xác định nhãn ảo giác cuối cùng?",
+    "answer":"Nhãn ảo giác cuối cùng được xác định bằng cách sử dụng chiến lược bỏ phiếu đa số (max-voting).",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Hình 3 thể hiện điều gì?",
+    "answer":"Hình 3 thể hiện sự phân bố chủ đề cho các phản hồi của ChatGPT.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Có bao nhiêu người được chọn làm người đánh giá sau khi kiểm tra độ chính xác?",
+    "answer":"Có ba mươi người đánh giá được chọn.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Những kỹ năng nào là cần thiết để đánh giá độ tin cậy của các phản hồi từ ChatGPT?",
+    "answer":"Cần có kỹ năng đọc hiểu tốt và khả năng sử dụng công cụ tìm kiếm để đánh giá thông tin.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Giá trị Kappa Fleiss là bao nhiêu và nó cho thấy điều gì về sự đồng thuận giữa những người đánh giá?",
+    "answer":"Giá trị Kappa Fleiss là 0.811, cho thấy sự đồng thuận hoàn hảo giữa những người đánh giá.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Tổng cộng có bao nhiêu mẫu được tạo ra cho mỗi nhiệm vụ hỏi đáp, đối thoại và tóm tắt?",
+    "answer":"Có 10,000 mẫu cho mỗi nhiệm vụ hỏi đáp, đối thoại và tóm tắt.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Trong số các phản hồi được chú thích từ ChatGPT, tỷ lệ phản hồi bị coi là chứa thông tin sai lệch (hallucination) là bao nhiêu?",
+    "answer":"Khoảng 19.5% phản hồi được đánh dấu là chứa thông tin sai lệch.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Các nhà nghiên cứu có thể sử dụng benchmark này để làm gì liên quan đến vấn đề 'ảo giác' (hallucination) ở các mô hình ngôn ngữ lớn?",
+    "answer":"Các nhà nghiên cứu có thể sử dụng benchmark này để điều tra hoặc giảm thiểu vấn đề 'ảo giác' ở các mô hình ngôn ngữ lớn.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Các mẫu đã tạo và chú thích có thể được sử dụng để làm gì trong việc nghiên cứu về LLM?",
+    "answer":"Các nhà nghiên cứu có thể sử dụng chúng để phân tích loại nội dung mà LLM có xu hướng tạo ra ảo giác.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Ngoài việc tạo ra nội dung, LLM còn có thể làm gì với các mẫu đã tạo?",
+    "answer":"LLM có thể được đánh giá khả năng nhận biết các ảo giác trong các mẫu đã tạo.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Để đánh giá khả năng nhận biết ảo giác của LLM, điều gì cần được cung cấp cho LLM?",
+    "answer":"Một câu hỏi và một câu trả lời cần được cung cấp cho LLM để xác định xem câu trả lời có chứa ảo giác hay không.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Người dùng có thể sử dụng benchmark này bằng cách nào?",
+    "answer":"Người dùng có thể chạy mã trong kho lưu trữ dự án để tiến hành đánh giá và phân tích tương ứng.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Benchmark này dùng để làm gì?",
+    "answer":"Benchmark này được thiết kế đặc biệt để kiểm tra khả năng tạo thông tin sai lệch (hallucinations) của các mô hình ngôn ngữ lớn (LLMs).",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Tại sao nên kết hợp benchmark này với đánh giá của con người?",
+    "answer":"Để đánh giá xem kết quả đầu ra của LLM có chứa thông tin sai lệch hay không, việc kết hợp benchmark với đánh giá của con người sẽ giúp tăng độ chính xác.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Độ chính xác của Claude 2 trong việc phân loại nội dung ảo giác là bao nhiêu?",
+    "answer":"Độ chính xác của Claude 2 là 69.78 64.73 57.75 75.00.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Trong số các mô hình được liệt kê, mô hình nào có vẻ kém chính xác nhất trong việc phân loại nội dung ảo giác?",
+    "answer":"Alpaca có vẻ là mô hình kém chính xác nhất.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Những mô hình ngôn ngữ lớn (LLMs) tiên tiến đã được đánh giá bằng chuẩn nào?",
+    "answer":"Chúng được đánh giá bằng chuẩn halueval.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Các thử nghiệm được thực hiện có sử dụng fine-tuning hay không?",
+    "answer":"Không, các thử nghiệm được thực hiện mà không có fine-tuning.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Có bao nhiêu mô hình ngôn ngữ lớn (LLM) nguồn đóng đã được thử nghiệm trong số các mô hình GPT-3, InstructGPT, ChatGPT, Claude và Claude 2?",
+    "answer":"Có năm mô hình ngôn ngữ lớn (LLM) nguồn đóng đã được thử nghiệm.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"API nào được sử dụng để tạo ra các mẫu bịa đặt?",
+    "answer":"Azure OpenAI ChatGPT API được sử dụng để tạo ra các mẫu bịa đặt.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Số lượng token tối đa được đặt cho quá trình tạo mẫu là bao nhiêu?",
+    "answer":"Số lượng token tối đa được đặt là 256.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Tại sao nhiệt độ được đặt thành 0 khi đánh giá các mô hình?",
+    "answer":"Nhiệt độ được đặt thành 0 để giảm tính ngẫu nhiên của kết quả và đảm bảo kết quả tập trung và xác định hơn.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mô hình ChatGPT đạt độ chính xác bao nhiêu trong việc phân loại tóm tắt văn bản thực tế và tóm tắt bịa đặt?",
+    "answer":"Mô hình ChatGPT đạt độ chính xác 58.53% trong việc phân loại tóm tắt văn bản thực tế và tóm tắt bịa đặt.",
+    "question_type":"factual"
+  },
+  {
+    "question":"So với GPT-3, độ chính xác của Alpaca và Vicuna trong các tác vụ tương tự như thế nào?",
+    "answer":"Alpaca và Vicuna có độ chính xác thấp hơn so với GPT-3 trong các tác vụ tương tự.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Những phương pháp nào có thể giúp cải thiện khả năng của các mô hình ngôn ngữ lớn (LLM) trong việc xác định thông tin bịa đặt trong văn bản?",
+    "answer":"Việc điều chỉnh hướng dẫn (instruction tuning) và điều chỉnh phù hợp với con người (alignment with humans) có thể giúp cải thiện khả năng của các mô hình ngôn ngữ lớn trong việc xác định thông tin bịa đặt trong văn bản.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Phần lớn lỗi trong QA, hội thoại và tóm tắt xuất phát từ loại ảo giác nào?",
+    "answer":"Phần lớn lỗi trong QA, hội thoại và tóm tắt xuất phát từ loại ảo giác đầu tiên.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Sự phân bố không đồng đều của các loại ảo giác trong các mẫu lỗi cho thấy điều gì?",
+    "answer":"Điều này cho thấy các LLM thiếu hoặc không thể liên kết ngữ cảnh.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mô hình ảo giác đầu tiên đề cập đến loại ảo giác nào?",
+    "answer":"Mô hình ảo giác đầu tiên đề cập đến các ảo giác đúng về mặt thực tế nhưng lại mâu thuẫn với ngữ cảnh.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Các mẫu tác vụ được phân cụm thành bao nhiêu chủ đề?",
+    "answer":"Các mẫu tác vụ được phân cụm thành mười chủ đề.",
+    "question_type":"factual"
+  },
+  {
+    "question":"ChatGPT gặp khó khăn trong những lĩnh vực chính nào?",
+    "answer":"ChatGPT gặp khó khăn trong các lĩnh vực công nghệ, khí hậu và ngôn ngữ.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Trong bộ dữ liệu QA, ChatGPT không nhận ra bao nhiêu mẫu cho kiểu ảo giác p-iii?",
+    "answer":"1027",
+    "question_type":"factual"
+  },
+  {
+    "question":"Đối với bộ dữ liệu hội thoại (dialogue), ChatGPT thất bại trong việc nhận dạng kiểu ảo giác p-ii bao nhiêu lần?",
+    "answer":"82",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Trong các tác vụ tóm tắt (summarization), ChatGPT thất bại bao nhiêu lần so với tổng số tác vụ?",
+    "answer":"3106 trên tổng số 3868 tác vụ.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Chiến lược nào thường được sử dụng để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn?",
+    "answer":"Lấy thông tin liên quan là một chiến lược phổ biến để loại bỏ ảo giác.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Wikipedia được sử dụng để cung cấp thông tin cho ChatGPT. Điều này ngụ ý gì về độ tin cậy của Wikipedia?",
+    "answer":"Điều này ngụ ý rằng Wikipedia được coi là một nguồn thông tin đáng tin cậy.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Việc cung cấp kiến thức ảnh hưởng như thế nào đến độ chính xác nhận dạng của ChatGPT trong các tác vụ QA, và cụ thể là tăng từ bao nhiêu lên bao nhiêu?",
+    "answer":"Độ chính xác nhận dạng của ChatGPT tăng đáng kể, ví dụ như tăng từ 62.59% lên 76.83% trong QA.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Việc trang bị cho các mô hình ngôn ngữ lớn (LLMs) kiến thức bên ngoài có tác dụng gì đối với khả năng nhận biết thông tin sai lệch?",
+    "answer":"Việc trang bị cho LLMs kiến thức bên ngoài có thể giúp tăng cường khả năng nhận biết thông tin sai lệch.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Mục đích của việc sử dụng Chain-of-Thought (CoT) là gì?",
+    "answer":"Chain-of-Thought (CoT) được đề xuất để cải thiện khả năng suy luận của các mô hình ngôn ngữ lớn (LLM) và đưa ra câu trả lời cuối cùng bằng cách giới thiệu một loạt các bước suy luận trung gian.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Việc tạo ra các bước suy luận ảnh hưởng như thế nào đến hiệu suất của mô hình trong các tác vụ trả lời câu hỏi và đối thoại?",
+    "answer":"Việc tạo ra các bước suy luận có thể làm giảm hiệu suất của mô hình trong các tác vụ trả lời câu hỏi và đối thoại.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Tại sao việc tạo ra các bước suy luận lại cải thiện độ chính xác trong tóm tắt văn bản, nhưng không cải thiện trong trả lời câu hỏi?",
+    "answer":"Có thể là do việc suy luận logic giúp xác định các mâu thuẫn thực tế giữa văn bản gốc và bản tóm tắt, điều này quan trọng trong tóm tắt văn bản, nhưng không quan trọng bằng trong trả lời câu hỏi.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Việc phân biệt giữa các mẫu đúng và các mẫu bịa đặt mang lại kết quả như thế nào?",
+    "answer":"Việc phân biệt giữa các mẫu đúng và các mẫu bịa đặt mang lại kết quả tệ nhất.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Tại sao các LLM lại gặp khó khăn trong việc phân biệt giữa các mẫu thật và các mẫu bịa đặt?",
+    "answer":"Các LLM gặp khó khăn vì các mẫu bịa đặt được tạo ra có độ tương đồng cao với các mẫu thật.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Bài kiểm tra này cho thấy điều gì về tiêu chuẩn đánh giá (benchmark) trong việc đánh giá khả năng tạo thông tin sai lệch (hallucination) của LLM?",
+    "answer":"Bài kiểm tra này cho thấy tiêu chuẩn đánh giá rất khó khăn trong việc đánh giá khả năng tạo thông tin sai lệch của LLM.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Ví dụ nào được đề cập trong đoạn văn về việc ChatGPT tạo ra thông tin sai lệch?",
+    "answer":"ChatGPT đã đưa ra ngày sai về thời điểm ký Tuyên ngôn Độc lập, cụ thể là \"4 tháng 7 năm 1776 - ký Tuyên ngôn Độc lập\".",
+    "question_type":"factual"
+  },
+  {
+    "question":"Ngoài ví dụ về Tuyên ngôn Độc lập, ChatGPT còn đưa ra thông tin sai lệch nào khác được đề cập trong đoạn văn?",
+    "answer":"ChatGPT đã đưa ra các số liệu tăng trưởng GDP không chính xác của Trung Quốc và Ấn Độ.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"ChatGPT có thể truy cập internet để lấy dữ liệu chính thức không?",
+    "answer":"Không, ChatGPT không thể truy cập internet để lấy dữ liệu chính thức.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Việc truy xuất kiến thức liên quan đến truy vấn có lợi ích gì cho ChatGPT?",
+    "answer":"Việc truy xuất kiến thức liên quan đến truy vấn có thể giúp ChatGPT giảm đáng kể các lỗi sai, đặc biệt là các lỗi sai về mặt thực tế.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Điều gì xảy ra khi ChatGPT được cung cấp thông tin chính thức, ví dụ như thông tin từ Ngân hàng Thế giới?",
+    "answer":"Khi ChatGPT được cung cấp thông tin chính thức từ các nguồn như Ngân hàng Thế giới, các câu trả lời của nó sẽ chính xác hơn.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Tại sao hiện tượng ảo giác (hallucination) trong các mô hình ngôn ngữ lớn (LLM) lại đáng lo ngại?",
+    "answer":"Hiện tượng ảo giác trong các LLM đáng lo ngại vì nó cản trở hiệu suất và làm tăng rủi ro an toàn trong các ứng dụng thực tế.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Các nghiên cứu trước đây đã đề xuất những phương pháp nào để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn?",
+    "answer":"Các nghiên cứu trước đây đã đề xuất sử dụng hệ thống xác minh để xác định các thực thể phi thực tế trong tóm tắt văn bản, sử dụng các giao diện của dữ liệu có cấu trúc để có được bằng chứng liên quan và đào tạo một 'fact critic' ở cấp độ token để nhận ra và khắc phục ảo giác trong đối thoại.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mục tiêu chung của việc sử dụng hệ thống xác minh, khai thác dữ liệu có cấu trúc và đào tạo 'fact critic' trong bối cảnh các mô hình ngôn ngữ lớn là gì?",
+    "answer":"Mục tiêu chung là giảm thiểu hiện tượng ảo giác và nâng cao độ tin cậy của thông tin do các mô hình ngôn ngữ lớn tạo ra.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Công trình nghiên cứu này tập trung vào điều gì liên quan đến các mô hình ngôn ngữ lớn (LLMs)?",
+    "answer":"Công trình này tập trung vào việc xây dựng một chuẩn đánh giá ảo giác cho các mô hình ngôn ngữ lớn (LLMs).",
+    "question_type":"factual"
+  },
+  {
+    "question":"Dữ liệu được đề cập trong đoạn văn có thể giúp ích gì trong việc nghiên cứu về các mô hình ngôn ngữ lớn?",
+    "answer":"Dữ liệu này có thể giúp bộc lộ những điểm yếu của các mô hình ngôn ngữ lớn trong việc giải quyết vấn đề ảo giác.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Xu hướng chung của các nghiên cứu được đề cập trong đoạn văn là gì?",
+    "answer":"Xu hướng chung là tập trung vào việc đánh giá ảo giác của các mô hình trong các nhiệm vụ xử lý ngôn ngữ tự nhiên khác nhau.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Mục đích của benchmark AIS (Attributable to Identified Sources) là gì?",
+    "answer":"Benchmark AIS đánh giá xem các tài liệu nguồn có hỗ trợ đầu ra của các mô hình tạo văn bản hay không.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Một trong những hạn chế của các benchmark hiện tại là gì?",
+    "answer":"Các benchmark hiện tại thường chỉ tập trung vào các tác vụ đơn lẻ và các mô hình nhỏ, điều này hạn chế khả năng áp dụng rộng rãi của chúng.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Phương pháp nào được sử dụng để tạo ra các mẫu 'ảo giác' (hallucinated samples) trong benchmark Halueval?",
+    "answer":"Một quy trình tự động hai bước hoàn toàn dựa trên các mô hình ngôn ngữ lớn (LLMs) được sử dụng để tạo ra các mẫu 'ảo giác'.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Halueval là gì?",
+    "answer":"Halueval là một bộ sưu tập quy mô lớn gồm các mẫu ảo giác được tạo và chú thích bởi con người, dùng để đánh giá hiệu suất của các mô hình ngôn ngữ lớn (LLM) trong việc nhận biết ảo giác.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Phương pháp hai bước được đề xuất để tạo mẫu quy mô lớn có bao gồm việc chọn lọc mẫu không?",
+    "answer":"Có, phương pháp này bao gồm việc chọn lọc và chọn ra các mẫu khó.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Mục tiêu cuối cùng của việc nghiên cứu và xây dựng các công cụ đánh giá ảo giác trong mô hình ngôn ngữ lớn là gì?",
+    "answer":"Mục tiêu cuối cùng là xây dựng các mô hình ngôn ngữ lớn hiệu quả và đáng tin cậy hơn.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Điều gì giới hạn chất lượng của các mẫu ảo giác được tạo ra?",
+    "answer":"Chất lượng của các mẫu ảo giác bị giới hạn bởi khả năng của ChatGPT trong việc tuân theo các hướng dẫn phức tạp để lấy mẫu ảo giác.",
+    "question_type":"factual"
+  },
+  {
+    "question":"Quá trình lọc ảo giác chất lượng cao có đủ để đảm bảo chất lượng của các mẫu ảo giác không?",
+    "answer":"Không, vẫn cần phải áp dụng kiểm soát chất lượng cho việc tạo ra các mẫu ảo giác, mặc dù đã có quá trình lọc chất lượng cao.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Điểm chuẩn này tập trung vào điều gì liên quan đến ảo giác và nó khác với các nghiên cứu trước đây như thế nào?",
+    "answer":"Điểm chuẩn này tập trung vào việc đánh giá khả năng của LLM trong việc nhận biết ảo giác trong văn bản, nhưng không điều tra các lý do cơ bản đằng sau sự xuất hiện của ảo giác, khác với các nghiên cứu trước đây.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Hướng dẫn lấy mẫu ảo giác được trình bày ở phần nào của phụ lục?",
+    "answer":"Hướng dẫn lấy mẫu ảo giác được trình bày trong phụ lục A.",
+    "question_type":"inferential"
+  },
+  {
+    "question":"Bảng nào cung cấp hướng dẫn nhận dạng ảo giác cho các nhiệm vụ như QA, hội thoại và tóm tắt?",
+    "answer":"Bảng 13, 14 và 15 cung cấp hướng dẫn nhận dạng ảo giác cho QA, hội thoại và tóm tắt.",
+    "question_type":"analytical"
+  },
+  {
+    "question":"Có bao nhiêu mẫu được tạo ra cho kiểu ảo giác p-iv trong nhiệm vụ qa?",
+    "answer":"Có 1240 mẫu được tạo ra cho kiểu ảo giác p-iv trong nhiệm vụ qa.",
+    "question_type":"factual"
+  }
+]

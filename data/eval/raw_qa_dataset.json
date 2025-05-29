@@ -1,0 +1,1244 @@
+[
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "halueval: a large-scale hallucination evaluation benchmark for large language models",
+      "reasoning": "The question asks for the purpose of halueval, which is stated directly in the document's title."
+    },
+    "question": "Halueval được tạo ra để làm gì?",
+    "answer": "Halueval là một chuẩn đánh giá quy mô lớn về hiện tượng ảo giác cho các mô hình ngôn ngữ lớn."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "junyi li [1,3,4] [∗], xiaoxue cheng [1], wayne xin zhao [∗] [1,4] [†], jian-yun nie [3] and ji-rong wen [1,2,4]",
+      "reasoning": "The question asks to infer how many researchers contributed to the work based on the author list."
+    },
+    "question": "Có bao nhiêu nhà nghiên cứu đã tham gia vào công trình này?",
+    "answer": "Có sáu nhà nghiên cứu đã tham gia vào công trình này."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "1 gaoling school of artificial intelligence, renmin university of china 2 school of information, renmin university of china 3 diro, université de montréal 4 beijing key laboratory of big data management and analysis methods",
+      "reasoning": "The question requires analyzing the affiliations to determine if Renmin University of China is involved and in what capacity."
+    },
+    "question": "Đại học Renmin của Trung Quốc tham gia vào nghiên cứu này như thế nào?",
+    "answer": "Đại học Renmin của Trung Quốc tham gia thông qua Trường Trí tuệ Nhân tạo Gaoling, Trường Thông tin và Phòng thí nghiệm trọng điểm Bắc Kinh về Quản lý và Phân tích Dữ liệu Lớn."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "large language models (llms), such as chatgpt, are prone to generate hallucinations",
+      "reasoning": "The document explicitly states that LLMs like ChatGPT are prone to generating hallucinations."
+    },
+    "question": "Các mô hình ngôn ngữ lớn như ChatGPT có xu hướng tạo ra lỗi gì?",
+    "answer": "Các mô hình ngôn ngữ lớn như ChatGPT có xu hướng tạo ra các ảo giác (hallucinations)."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "content that conflicts with the source or cannot be verified by the factual knowledge",
+      "reasoning": "The definition of hallucinations implies that the content is either in conflict with the source material or cannot be fact-checked."
+    },
+    "question": "Nội dung do các mô hình ngôn ngữ lớn tạo ra được coi là 'ảo giác' khi nào?",
+    "answer": "Nội dung được coi là 'ảo giác' khi nó mâu thuẫn với nguồn hoặc không thể xác minh bằng kiến thức thực tế."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "to understand *what types of content* and *to which ex-* *tent* llms are apt to hallucinate, we introduce the **hal** l **you** cination **eval** uation benchmark",
+      "reasoning": "The document states that the benchmark is introduced to understand the types and extent of hallucinations in LLMs."
+    },
+    "question": "Mục đích của việc giới thiệu tiêu chuẩn đánh giá 'hallucination evaluation benchmark' là gì?",
+    "answer": "Mục đích là để hiểu rõ hơn về các loại nội dung và mức độ mà các mô hình ngôn ngữ lớn có xu hướng tạo ra ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "halueval ), a large collection of generated and human-annotated hallucinated samples for evaluating the performance of llms in recognizing hallucination.",
+      "reasoning": "The document explicitly states that Halueval is a large collection of hallucinated samples."
+    },
+    "question": "Halueval là gì?",
+    "answer": "Halueval là một tập hợp lớn các mẫu ảo giác được tạo và chú thích bởi con người, dùng để đánh giá khả năng nhận biết ảo giác của các mô hình ngôn ngữ lớn."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "the empirical results suggest that chatgpt is likely to generate hallucinated content related to specific topics by fabricating unverifiable information ( *i.e.,* about 19 *.* 5% responses).",
+      "reasoning": "The document mentions that ChatGPT generates hallucinated content in about 19.5% of responses. This implies that ChatGPT is prone to generating hallucinations."
+    },
+    "question": "ChatGPT có dễ tạo ra thông tin sai lệch hay không?",
+    "answer": "Có vẻ như ChatGPT có khả năng tạo ra thông tin sai lệch, cụ thể là khoảng 19.5% các phản hồi chứa nội dung bịa đặt."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "however, our experiments also prove that providing external knowledge or adding reasoning steps can help llms recognize hallucinations.",
+      "reasoning": "The document states that providing external knowledge or adding reasoning steps can help LLMs recognize hallucinations. Therefore, these two methods can improve the ability of LLMs to recognize hallucinations."
+    },
+    "question": "Những phương pháp nào có thể giúp các mô hình ngôn ngữ lớn (LLM) nhận biết ảo giác tốt hơn?",
+    "answer": "Việc cung cấp kiến thức bên ngoài hoặc thêm các bước suy luận có thể giúp các mô hình ngôn ngữ lớn nhận biết ảo giác tốt hơn."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the advent of large language models (llms) (zhao et al., 2023) has ushered in a paradigm shift in natural language processing (nlp)",
+      "reasoning": "The question asks for the impact of LLMs on NLP. The text states that LLMs have ushered in a paradigm shift in NLP."
+    },
+    "question": "Sự ra đời của các mô hình ngôn ngữ lớn (LLMs) đã tác động như thế nào đến lĩnh vực xử lý ngôn ngữ tự nhiên (NLP)?",
+    "answer": "Sự ra đời của các mô hình ngôn ngữ lớn (LLMs) đã tạo ra một sự thay đổi mô hình trong lĩnh vực xử lý ngôn ngữ tự nhiên (NLP)."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "the remarkable language ability makes llms core in a number of products with millions of users, such as the coding assistant copilot and recent chatgpt.",
+      "reasoning": "The question asks about the reason for the widespread use of LLMs. The text mentions that the remarkable language ability makes LLMs core in a number of products with millions of users."
+    },
+    "question": "Điều gì khiến các mô hình ngôn ngữ lớn (LLMs) trở nên quan trọng trong nhiều sản phẩm được hàng triệu người dùng sử dụng?",
+    "answer": "Khả năng ngôn ngữ vượt trội của chúng đã khiến LLMs trở thành cốt lõi trong nhiều sản phẩm được hàng triệu người dùng sử dụng."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "despite these prominent capabilities of llms trained on large text corpus, recent work has shown that llms are prone to suffer from *hallucination* *generations* across various applications",
+      "reasoning": "The question asks about a potential drawback of LLMs. The text mentions that LLMs are prone to hallucination generations across various applications."
+    },
+    "question": "Mặc dù có những khả năng nổi bật, các mô hình ngôn ngữ lớn (LLMs) vẫn có thể gặp phải vấn đề gì?",
+    "answer": "Các mô hình ngôn ngữ lớn (LLMs) có thể dễ bị tạo ra các nội dung 'ảo' (hallucination generations) trong nhiều ứng dụng khác nhau."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "showing that chatgpt might generate hallucinated contents ( **green** ) that cannot be verified by existing source.",
+      "reasoning": "The question asks about what ChatGPT might generate, and the context directly states it might generate hallucinated contents."
+    },
+    "question": "Theo tài liệu này, ChatGPT có thể tạo ra loại nội dung nào không thể kiểm chứng?",
+    "answer": "ChatGPT có thể tạo ra nội dung ảo giác (hallucinated contents) mà không thể kiểm chứng bằng các nguồn hiện có."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "the issue of hallucination\nmakes the deployment of llms potentially risky in\nreal-world applications.",
+      "reasoning": "The question asks about the risk associated with hallucination. The text states that hallucination makes the deployment of LLMs potentially risky in real-world applications."
+    },
+    "question": "Vấn đề tạo ra nội dung ảo giác (hallucination) có thể gây ra rủi ro gì khi triển khai các mô hình ngôn ngữ lớn (LLMs)?",
+    "answer": "Vấn đề tạo ra nội dung ảo giác có thể làm cho việc triển khai các mô hình ngôn ngữ lớn trở nên rủi ro trong các ứng dụng thực tế."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "most exiting work mainly\nfocuses on investigating the causes of hallucination\nfor specific tasks and small language models",
+      "reasoning": "The question asks what the main focus of existing work is. The text states that most existing work focuses on investigating the causes of hallucination."
+    },
+    "question": "Các nghiên cứu hiện tại chủ yếu tập trung vào việc gì liên quan đến hiện tượng tạo nội dung ảo giác của các mô hình ngôn ngữ?",
+    "answer": "Các nghiên cứu hiện tại chủ yếu tập trung vào việc điều tra nguyên nhân của hiện tượng tạo nội dung ảo giác (hallucination) đối với các tác vụ cụ thể và các mô hình ngôn ngữ nhỏ."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "halueval includes 5,000 *general* user queries with chatgpt responses and 30,000 *task-specific* examples from three tasks, *i.e.,* question answering, knowledge-grounded dialogue, and text summarization.",
+      "reasoning": "The document explicitly states the number of general user queries and task-specific examples included in HALUEVAL."
+    },
+    "question": "HALUEVAL bao gồm bao nhiêu truy vấn người dùng chung và bao nhiêu ví dụ cụ thể cho từng nhiệm vụ?",
+    "answer": "HALUEVAL bao gồm 5.000 truy vấn người dùng chung và 30.000 ví dụ cụ thể cho từng nhiệm vụ."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "to further screen out user queries\nwhere llms are most likely to produce hallucinations, we use chatgpt to sample three responses\nfor each query and only retain 5 *,* 000 queries with\nthe lowest similarity among three responses.",
+      "reasoning": "The document describes a process of selecting queries where LLMs are likely to hallucinate. The process involves sampling multiple responses and selecting queries where the responses are dissimilar. This implies that dissimilar responses are indicative of hallucination."
+    },
+    "question": "Tại sao HALUEVAL lại chọn các truy vấn có độ tương đồng thấp giữa các phản hồi của ChatGPT?",
+    "answer": "HALUEVAL chọn các truy vấn có độ tương đồng thấp giữa các phản hồi của ChatGPT vì độ tương đồng thấp có thể là dấu hiệu cho thấy mô hình đang tạo ra các thông tin sai lệch (hallucination)."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "halueval includes 5,000\n*general* user queries with chatgpt responses and\n30,000 *task-specific* examples from three tasks, *i.e.,*\nquestion answering, knowledge-grounded dialogue,\nand text summarization.",
+      "reasoning": "The document lists the three tasks included in the task-specific examples of HALUEVAL."
+    },
+    "question": "Những nhiệm vụ cụ thể nào được sử dụng trong HALUEVAL để đánh giá các mô hình ngôn ngữ lớn?",
+    "answer": "HALUEVAL sử dụng ba nhiệm vụ cụ thể: trả lời câu hỏi, đối thoại dựa trên tri thức và tóm tắt văn bản."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "hallucinations are likely to appear in diverged and conflicting responses of llms",
+      "reasoning": "The document directly states that hallucinations are likely to appear in diverged and conflicting responses of LLMs."
+    },
+    "question": "Theo nghiên cứu gần đây, loại phản hồi nào của mô hình ngôn ngữ lớn (LLM) dễ xuất hiện ảo giác?",
+    "answer": "Ảo giác có khả năng xuất hiện trong các phản hồi khác biệt và mâu thuẫn của mô hình ngôn ngữ lớn (LLM)."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "human labelers to annotate whether the response contains hallucinated information and mark cor responding spans",
+      "reasoning": "The document describes a process of human annotation to identify hallucinations, implying that automated detection is not yet reliable enough. The human annotators mark specific spans in the text that contain hallucinations."
+    },
+    "question": "Trong quá trình xác định thông tin ảo giác trong phản hồi của ChatGPT, vai trò của người đánh giá (human labelers) là gì?",
+    "answer": "Người đánh giá có vai trò xác định xem phản hồi có chứa thông tin ảo giác hay không và đánh dấu các đoạn văn bản tương ứng chứa thông tin đó."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "these human-annotated queries and responses can be used to analyze what types of content llms tend to hallucinate and further",
+      "reasoning": "The text mentions using annotated data to analyze what content LLMs hallucinate. This suggests a goal of understanding and potentially mitigating hallucination issues in LLMs in the future."
+    },
+    "question": "Dữ liệu truy vấn và phản hồi được đánh dấu bởi người đánh giá được sử dụng để làm gì?",
+    "answer": "Dữ liệu này được sử dụng để phân tích các loại nội dung mà mô hình ngôn ngữ lớn (LLM) có xu hướng tạo ra ảo giác, và có thể được sử dụng cho các mục đích khác nữa."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we employ chatgpt to generate hallucinated samples with two styles of task-specific instructions, *i.e.,* onepass and conversational",
+      "reasoning": "The document explicitly states that ChatGPT is used to generate hallucinated samples with two styles of task-specific instructions: onepass and conversational."
+    },
+    "question": "ChatGPT được sử dụng để tạo ra các mẫu ảo giác với những kiểu hướng dẫn đặc trưng cho từng nhiệm vụ nào?",
+    "answer": "ChatGPT được sử dụng để tạo ra các mẫu ảo giác với hai kiểu hướng dẫn đặc trưng cho từng nhiệm vụ: onepass và conversational."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "to select the most plausible and difficult hallucinated sample for llms evaluation, we elaborate the filtering instruction enhanced by ground-truth examples and leverage chatgpt for sample selection.",
+      "reasoning": "The document states that ChatGPT is used for sample selection to choose the most plausible and difficult hallucinated samples for LLM evaluation. This implies that the selection process involves a ranking or scoring of the samples based on their plausibility and difficulty."
+    },
+    "question": "Trong quá trình chọn mẫu ảo giác, ChatGPT được sử dụng để làm gì, và điều này ngụ ý gì về quy trình lựa chọn?",
+    "answer": "ChatGPT được sử dụng để lựa chọn các mẫu ảo giác có vẻ hợp lý và khó nhất để đánh giá LLMs. Điều này ngụ ý rằng quy trình lựa chọn bao gồm việc xếp hạng hoặc chấm điểm các mẫu dựa trên tính hợp lý và độ khó của chúng."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "these hallucinated samples are designed to challenge the ability of llms in hallucination recognition and analyze the information blind spots of llms.",
+      "reasoning": "The passage explicitly states that the hallucinated samples are designed to test the LLMs' ability to recognize hallucinations and to identify the information blind spots of the LLMs. Therefore, the purpose is to assess the LLMs' limitations in these two areas."
+    },
+    "question": "Các mẫu ảo giác được tạo ra nhằm mục đích gì đối với LLMs?",
+    "answer": "Các mẫu ảo giác được tạo ra nhằm mục đích thách thức khả năng nhận biết ảo giác của LLMs và phân tích các điểm mù thông tin của chúng."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we conduct experiments with several\nexisting powerful llms ( *e.g.,* chatgpt, gpt-3).",
+      "reasoning": "The document explicitly lists ChatGPT and GPT-3 as examples of LLMs used in experiments."
+    },
+    "question": "Những LLM mạnh mẽ nào đã được sử dụng trong các thử nghiệm được đề cập?",
+    "answer": "ChatGPT và GPT-3 là những LLM mạnh mẽ đã được sử dụng trong các thử nghiệm."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "hallucination recognition and analyze the information blind spots of llms.",
+      "reasoning": "The document mentions hallucination recognition and analyzing information blind spots, implying a focus on understanding LLM limitations."
+    },
+    "question": "Mục đích chính của việc nghiên cứu này là gì?",
+    "answer": "Mục đích chính là nhận diện ảo giác và phân tích các điểm mù thông tin của LLM."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "to better understand the performance of llms\nin halueval, we conduct experiments with several\nexisting powerful llms",
+      "reasoning": "The text indicates that experiments are conducted to gain a better understanding of LLM performance within the context of halueval (hallucination evaluation). This implies that the evaluation of hallucinations is a key aspect of understanding LLM performance."
+    },
+    "question": "Việc thực hiện các thử nghiệm với LLM giúp hiểu rõ hơn điều gì về hiệu suất của chúng?",
+    "answer": "Việc thực hiện các thử nghiệm với LLM giúp hiểu rõ hơn về hiệu suất của chúng trong việc đánh giá ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "chatgpt is likely to generate hallucinated content by fabricating unverifiable information in its responses ( *i.e.,* about 19 *.* 5% responses)",
+      "reasoning": "The question asks for the percentage of responses from ChatGPT that are hallucinated. The document states that ChatGPT generates hallucinated content in approximately 19.5% of its responses."
+    },
+    "question": "Khoảng bao nhiêu phần trăm phản hồi từ ChatGPT có khả năng chứa nội dung bịa đặt, không thể kiểm chứng?",
+    "answer": "Khoảng 19,5% phản hồi từ ChatGPT có khả năng chứa nội dung bịa đặt, không thể kiểm chứng."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "existing llms face significant challenges to identify the hallucinations in the generated text, even for chatgpt which is used to generate these hallucinated samples ( *e.g.,* only 62 *.* 59% accuracy for chatgpt in question answering)",
+      "reasoning": "The question asks about the ability of LLMs to detect hallucinations. The document states that LLMs, including ChatGPT, struggle to identify hallucinations in generated text, implying a limitation in their ability to self-assess the accuracy of their output."
+    },
+    "question": "Các mô hình ngôn ngữ lớn (LLM) có gặp khó khăn trong việc phát hiện thông tin sai lệch do chính chúng tạo ra không?",
+    "answer": "Có, các mô hình ngôn ngữ lớn gặp nhiều khó khăn trong việc phát hiện thông tin sai lệch do chính chúng tạo ra."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "the deficient performance of llms in recognizing hallucinations can be improved by providing explicit knowledge and adding intermediate reasoning steps. while, contrasting hallucinated samples with ground-truth makes llms more confused and leads to worse performance.",
+      "reasoning": "The question asks how to improve LLMs' ability to recognize hallucinations. The document states that providing explicit knowledge and adding intermediate reasoning steps can improve performance, while comparing hallucinated samples with ground truth worsens performance."
+    },
+    "question": "Những phương pháp nào có thể giúp cải thiện khả năng nhận biết thông tin sai lệch của các mô hình ngôn ngữ lớn (LLM)?",
+    "answer": "Cung cấp kiến thức rõ ràng và thêm các bước suy luận trung gian có thể cải thiện khả năng nhận biết thông tin sai lệch của các mô hình ngôn ngữ lớn. So sánh các mẫu sai lệch với dữ liệu thực tế có thể làm giảm hiệu suất."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the benchmark contains a myriad of correct samples and their hallucinated counterparts.",
+      "reasoning": "The text explicitly states that the benchmark contains both correct and hallucinated samples."
+    },
+    "question": "Halueval benchmark chứa những loại mẫu nào?",
+    "answer": "Halueval benchmark chứa rất nhiều mẫu đúng và các mẫu bị hallucination."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "this collection is created via two ways, *i.e.,* automatic generation and human annotation.",
+      "reasoning": "The text states the collection is created via automatic generation and human annotation. Therefore, the question can be answered by listing these two methods."
+    },
+    "question": "Bộ sưu tập các mẫu trong halueval benchmark được tạo ra bằng những cách nào?",
+    "answer": "Bộ sưu tập này được tạo ra bằng hai cách: tạo tự động và chú thích thủ công."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "as the goal of halueval is to understand *what types* *of content* and *to which extent* llms tend to hallucinate",
+      "reasoning": "The text explicitly states the goal of halueval is to understand the types of content and to which extent LLMs hallucinate."
+    },
+    "question": "Mục tiêu của halueval benchmark là gì?",
+    "answer": "Mục tiêu của halueval là để hiểu loại nội dung nào và mức độ mà LLM có xu hướng hallucination."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "our generation pipeline includes two steps: 1) diverse hallucination sampling, and 2) high-quality hallucination filtering.",
+      "reasoning": "The document explicitly states the two steps in the generation pipeline."
+    },
+    "question": "Quy trình tạo sinh của chúng tôi bao gồm mấy bước và đó là những bước nào?",
+    "answer": "Quy trình tạo sinh của chúng tôi bao gồm hai bước: 1) lấy mẫu ảo giác đa dạng và 2) lọc ảo giác chất lượng cao."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "we employ chatgpt to execute the creation pipeline automatically.",
+      "reasoning": "The document mentions using ChatGPT to automate the creation pipeline, implying it plays a significant role."
+    },
+    "question": "Công cụ nào được sử dụng để tự động hóa quy trình tạo sinh?",
+    "answer": "ChatGPT được sử dụng để tự động hóa quy trình tạo sinh."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "since a factual text can be hallucinated from different aspects, we propose two different hallucination sampling meth",
+      "reasoning": "The document indicates that texts can be 'hallucinated' from different angles and this motivates the need for diverse sampling methods."
+    },
+    "question": "Tại sao cần có các phương pháp lấy mẫu ảo giác khác nhau?",
+    "answer": "Cần có các phương pháp lấy mẫu ảo giác khác nhau vì một văn bản thực tế có thể bị tạo ảo giác từ nhiều khía cạnh khác nhau."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the first method adopts a *one-pass* instruction following schema",
+      "reasoning": "The question asks about the name of the first method. The text explicitly states that the first method is called 'one-pass instruction following schema'."
+    },
+    "question": "Phương pháp đầu tiên được sử dụng để tạo mẫu đa dạng có tên là gì?",
+    "answer": "Phương pháp đầu tiên được gọi là lược đồ tuân theo hướng dẫn *một lượt*."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "the second method uses a *conversational* schema, where we teach chatgpt to successively learn part of the instruction and make sure it has mastered.",
+      "reasoning": "The question is about the purpose of the conversational schema. The text mentions that in this schema, ChatGPT is taught to successively learn parts of the instruction and ensure it has mastered them. Thus, the purpose is to teach ChatGPT step-by-step."
+    },
+    "question": "Mục đích của việc sử dụng lược đồ *đàm thoại* là gì?",
+    "answer": "Mục đích là để dạy ChatGPT từng bước một, đảm bảo nó nắm vững từng phần của hướng dẫn."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "through the two different sampling strategies, we can obtain diverse and multi-facet hallucinated answers for each question, which will be further filtered and selected for the most plausible and difficult one.",
+      "reasoning": "The question asks about what happens to the generated hallucinated answers. The text states that these answers are filtered and selected for the most plausible and difficult ones. This implies that not all generated answers are used; only the best ones are kept."
+    },
+    "question": "Điều gì xảy ra với các câu trả lời 'ảo giác' (hallucinated answers) sau khi chúng được tạo ra?",
+    "answer": "Các câu trả lời này được lọc và chọn ra những câu trả lời правдоподобны (plausible - правдоподобный) và khó nhất."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the hallucination sampling instruction consists of three important parts, including *intention description*, *hallucination pattern*, and *hallucination demon-* *stration*",
+      "reasoning": "The question asks about the components of hallucination sampling instruction. The text explicitly states that it consists of intention description, hallucination pattern, and hallucination demonstration."
+    },
+    "question": "Theo phương pháp thiết kế được đề cập, hướng dẫn lấy mẫu ảo giác bao gồm những phần quan trọng nào?",
+    "answer": "Hướng dẫn lấy mẫu ảo giác bao gồm ba phần quan trọng: mô tả ý định, mẫu ảo giác và trình diễn ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "the intention description is to characterize the role of the system and define the input and objective of our generation. to control the type and quality of",
+      "reasoning": "The question asks about the purpose of the intention description. The text states that it characterizes the role of the system and defines the input and objective of the generation. Therefore, it's used to define what the system should do."
+    },
+    "question": "Mô tả ý định được sử dụng để làm gì trong quá trình tạo mẫu ảo giác?",
+    "answer": "Mô tả ý định được sử dụng để xác định vai trò của hệ thống và xác định đầu vào và mục tiêu của quá trình tạo mẫu."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "to design an effective instruction for chatgpt to generate hallucinated samples. in our design, the hallucination sampling instruction consists of three important parts",
+      "reasoning": "The question asks about the ultimate goal of the instruction design process. The text states that the key is to design an effective instruction for ChatGPT to generate hallucinated samples. Thus, the goal is to generate hallucinated samples."
+    },
+    "question": "Mục tiêu chính của việc thiết kế hướng dẫn trong phương pháp này là gì?",
+    "answer": "Mục tiêu chính là thiết kế một hướng dẫn hiệu quả cho ChatGPT để tạo ra các mẫu ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "in this paper, we automatically generate hallucinated samples for three tasks, *i.e.,* question answering, knowledge-grounded dialogue, and text summarization.",
+      "reasoning": "The document explicitly states the three tasks for which hallucinated samples are generated."
+    },
+    "question": "Bài báo này tự động tạo ra các mẫu 'ảo giác' cho những tác vụ nào?",
+    "answer": "Bài báo này tự động tạo ra các mẫu 'ảo giác' cho ba tác vụ: trả lời câu hỏi, đối thoại dựa trên tri thức và tóm tắt văn bản."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "we consider four types of hallucination patterns for question answering ( *i.e., comprehension*, *factual-* *ness*, *specificity*, and *inference* )",
+      "reasoning": "The question asks about the categories for a specific task. The document lists the hallucination patterns for question answering, so those are the answer."
+    },
+    "question": "Những loại mẫu 'ảo giác' nào được xem xét cho tác vụ trả lời câu hỏi?",
+    "answer": "Có bốn loại mẫu 'ảo giác' được xem xét cho tác vụ trả lời câu hỏi: comprehension, factual-ness, specificity và inference."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "three types of hallucination patterns for text summarization ( *i.e., factual*, *non-factual*, and *in-* *trinsic* )",
+      "reasoning": "The question requires comparing the number of hallucination patterns across different tasks. The document mentions the number of patterns for question answering, knowledge-grounded dialogue, and text summarization."
+    },
+    "question": "Số lượng mẫu 'ảo giác' cho tác vụ tóm tắt văn bản là bao nhiêu, và chúng là những loại nào?",
+    "answer": "Có ba loại mẫu 'ảo giác' cho tác vụ tóm tắt văn bản: factual, non-factual và intrinsic."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we first randomly sample 30 *,* 000 instances from\nthe training set of hotpotqa (yang et al., 2018), opendialkg (moon et al., 2019), and cnn/daily\nmail (see et al., 2017)",
+      "reasoning": "The question asks for the number of instances sampled. The text states '30,000 instances'."
+    },
+    "question": "Có bao nhiêu mẫu được lấy ngẫu nhiên từ tập huấn luyện?",
+    "answer": "30.000 mẫu."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "we first randomly sample 30 *,* 000 instances from\nthe training set of hotpotqa (yang et al., 2018), opendialkg (moon et al., 2019), and cnn/daily\nmail (see et al., 2017), and then generate their hallucinated examples.",
+      "reasoning": "The text mentions sampling instances from training sets and then generating 'hallucinated examples'. This implies the purpose is to create artificial or augmented data."
+    },
+    "question": "Mục đích của việc tạo ra các 'hallucinated examples' là gì?",
+    "answer": "Để tạo ra dữ liệu nhân tạo hoặc tăng cường dữ liệu hiện có."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "the hallucination sampling\ninstructions for dialogue and summarization can be\nfound in table 9-10 in the appendix a.",
+      "reasoning": "The text explicitly states that instructions for dialogue and summarization are located in table 9-10 in appendix A. This requires the user to understand the relationship between the type of hallucination and the location of the instructions."
+    },
+    "question": "Tôi có thể tìm thấy hướng dẫn lấy mẫu ảo giác cho hội thoại và tóm tắt ở đâu?",
+    "answer": "Trong bảng 9-10 ở phụ lục A."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we design the instruction of hallucination filtering enhanced by ground-truth answers to select the best answer from two hallucinated candidates.",
+      "reasoning": "The question directly asks about the purpose of the designed instruction, which is explicitly stated in the sentence."
+    },
+    "question": "Mục đích của việc thiết kế hướng dẫn lọc ảo giác được tăng cường bằng các câu trả lời thực tế là gì?",
+    "answer": "Để chọn câu trả lời tốt nhất từ hai ứng viên ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "in the instruction of filtering, the demonstration includes the ground-truth correct answer ( *e.g.,* you.s. highway 60) and a hallucinated counterpart ( *e.g.,* you.s. highway 70).",
+      "reasoning": "The question asks about what is included in the demonstration, and the context explains that the demonstration includes ground-truth answers and hallucinated answers as examples."
+    },
+    "question": "Trong hướng dẫn lọc, phần trình diễn bao gồm những gì?",
+    "answer": "Phần trình diễn bao gồm câu trả lời đúng thực tế và một câu trả lời ảo giác tương ứng."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "following the demonstrations, we expect chatgpt to select one of the hallucinated answers that is the",
+      "reasoning": "The question asks what ChatGPT is expected to do. The context states that after the demonstrations, ChatGPT is expected to select one of the hallucinated answers."
+    },
+    "question": "Sau khi xem các minh họa, ChatGPT được kỳ vọng sẽ làm gì?",
+    "answer": "Chọn một trong các câu trả lời ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "generating a total of 30 *,* 000 hallucinated samples for the three tasks",
+      "reasoning": "The document states the number of hallucinated samples generated."
+    },
+    "question": "Tổng cộng có bao nhiêu mẫu ảo giác đã được tạo ra cho ba nhiệm vụ?",
+    "answer": "Tổng cộng có 30.000 mẫu ảo giác đã được tạo ra."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "the selected hallucinated sample is hard to be identified, which are further used to evaluate llms in hallucination recognition.",
+      "reasoning": "The document mentions that the hallucinated samples are used to evaluate LLMs in hallucination recognition, implying a purpose for generating these samples."
+    },
+    "question": "Mục đích của việc tạo ra các mẫu ảo giác này là gì?",
+    "answer": "Các mẫu ảo giác này được sử dụng để đánh giá khả năng nhận biết ảo giác của các mô hình ngôn ngữ lớn (LLMs)."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "through the *sampling-then-filtering* process",
+      "reasoning": "The document mentions a 'sampling-then-filtering' process, suggesting a multi-stage approach to generating the hallucinated samples."
+    },
+    "question": "Quá trình tạo ra các mẫu ảo giác bao gồm những bước chính nào?",
+    "answer": "Quá trình tạo ra các mẫu ảo giác bao gồm việc lấy mẫu (sampling) và sau đó lọc (filtering)."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we also invite human labelers to annotate whether chatgpt responses contain hallucinated content.",
+      "reasoning": "The document explicitly states that human labelers are involved in identifying hallucinated content in ChatGPT responses."
+    },
+    "question": "Mục đích của việc mời người đánh giá (labelers) là gì?",
+    "answer": "Để đánh giá xem các phản hồi của ChatGPT có chứa nội dung bịa đặt (hallucinated) hay không."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "we annotate the general user queries and chatgpt responses from the 52 k instruction tuning dataset from alpaca (taori et al., 2023), which has been widely used by recent llms.",
+      "reasoning": "The document mentions using the Alpaca dataset, a popular instruction tuning dataset. Therefore, it can be inferred that the research involves training or evaluating large language models."
+    },
+    "question": "Dữ liệu từ bộ Alpaca được sử dụng cho mục đích gì trong nghiên cứu này?",
+    "answer": "Để huấn luyện hoặc đánh giá các mô hình ngôn ngữ lớn."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "to screen out user queries where llms are most likely to produce hallucination for labeling, we design a pre question",
+      "reasoning": "The text describes a process for identifying queries likely to cause LLMs to hallucinate. This suggests a focus on improving the reliability and accuracy of LLM responses by filtering out problematic inputs before labeling."
+    },
+    "question": "Tại sao lại cần sàng lọc trước các truy vấn của người dùng trước khi dán nhãn (labeling)?",
+    "answer": "Để loại bỏ các truy vấn mà mô hình ngôn ngữ lớn (LLM) có khả năng tạo ra thông tin sai lệch (hallucination) cao, từ đó cải thiện độ tin cậy và chính xác của các phản hồi."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the oldest cat photo is the daguerreotype “cat with blue ribbon” taken by photographer antoine claudet in 1840.",
+      "reasoning": "The question directly asks for the oldest cat photo, which is explicitly stated in the provided text."
+    },
+    "question": "Bức ảnh mèo cổ nhất được biết đến có tên là gì và được chụp bởi ai?",
+    "answer": "Bức ảnh mèo cổ nhất được biết đến là daguerreotype \"cat with blue ribbon\" và được chụp bởi nhiếp ảnh gia Antoine Claudet."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "however, one candidate for the oldest cat photo is the daguerreotype “cat with blue ribbon,” taken by photographer antoine claudet in 1840. the photo depicts a cat sitting on a table, gazing directly at the camera, and wearing a blue ribbon tied around its neck.",
+      "reasoning": "The user needs to infer the description of the cat by combining the information present in the provided context."
+    },
+    "question": "Bạn có thể mô tả bức ảnh \"cat with blue ribbon\" không?",
+    "answer": "Bức ảnh mô tả một con mèo đang ngồi trên bàn, nhìn thẳng vào máy ảnh và đeo một chiếc nơ xanh quanh cổ."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "there is no definitive answer to this question as “the oldest photo of a cat” is subjective and varies based on different sources and definitions. however, one candidate for the oldest cat photo is the daguerreotype “cat with blue ribbon,” taken by photographer antoine claudet in 1840.",
+      "reasoning": "The user needs to understand the reason why there's no definitive answer to the question."
+    },
+    "question": "Tại sao không có câu trả lời chắc chắn cho câu hỏi về bức ảnh mèo cổ nhất?",
+    "answer": "Vì định nghĩa về \"bức ảnh mèo cổ nhất\" mang tính chủ quan và khác nhau tùy theo các nguồn và định nghĩa khác nhau."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we use chatgpt to sample three responses for each user query",
+      "reasoning": "The document explicitly states that ChatGPT is used to sample three responses for each user query."
+    },
+    "question": "ChatGPT được sử dụng để lấy mẫu bao nhiêu phản hồi cho mỗi truy vấn của người dùng?",
+    "answer": "ChatGPT được sử dụng để lấy mẫu ba phản hồi cho mỗi truy vấn của người dùng."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "compute their average semantic similarity using bertscore",
+      "reasoning": "The text mentions using BERTScore to compute the average semantic similarity, implying that BERTScore is a tool for measuring semantic similarity."
+    },
+    "question": "BERTScore được sử dụng để làm gì trong quy trình này?",
+    "answer": "BERTScore được sử dụng để tính toán độ tương đồng ngữ nghĩa trung bình giữa các phản hồi."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "hallucinations are likely to appear in diverged and conflicting responses of llms",
+      "reasoning": "The text says that hallucinations are more likely to appear in responses that are diverged and conflicting. This implies that identifying these types of responses can help in detecting hallucinations."
+    },
+    "question": "Dấu hiệu nào cho thấy một phản hồi có thể chứa thông tin sai lệch (hallucination)?",
+    "answer": "Thông tin sai lệch có khả năng xuất hiện trong các phản hồi khác biệt và mâu thuẫn."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "*unverifiable*, *non-factual*, and *irrelevant*",
+      "reasoning": "The question asks for the aspects of hallucination considered, which are explicitly listed in the document."
+    },
+    "question": "Những khía cạnh nào được xem xét để đánh giá hiện tượng ảo giác (hallucination)?",
+    "answer": "Hiện tượng ảo giác được xem xét trên ba khía cạnh: không thể kiểm chứng, không đúng sự thật và không liên quan."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "each response is labeled by three human labelers, and we adopt the max-voting strategy to determine the final hallucination label.",
+      "reasoning": "The question requires understanding how the final label is determined given multiple human labelers."
+    },
+    "question": "Nếu có ba người đánh giá một phản hồi, làm thế nào để xác định nhãn ảo giác cuối cùng?",
+    "answer": "Nhãn ảo giác cuối cùng được xác định bằng cách sử dụng chiến lược bỏ phiếu đa số (max-voting)."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "topic distribution for chatgpt responses.",
+      "reasoning": "The question asks about the subject of Figure 3."
+    },
+    "question": "Hình 3 thể hiện điều gì?",
+    "answer": "Hình 3 thể hiện sự phân bố chủ đề cho các phản hồi của ChatGPT."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we choose thirty human labelers with the highest agreement scores.",
+      "reasoning": "The text states that thirty human labelers were selected based on their agreement scores."
+    },
+    "question": "Có bao nhiêu người được chọn làm người đánh giá sau khi kiểm tra độ chính xác?",
+    "answer": "Có ba mươi người đánh giá được chọn."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "annotating the hallucination in chatgpt responses is a very challenging task, which requires good reading comprehension skills and using search engine to look up relevant information for judgement.",
+      "reasoning": "The text explicitly states that annotating hallucinations requires reading comprehension and search engine usage for judgement. This implies these skills are essential for the task."
+    },
+    "question": "Những kỹ năng nào là cần thiết để đánh giá độ tin cậy của các phản hồi từ ChatGPT?",
+    "answer": "Cần có kỹ năng đọc hiểu tốt và khả năng sử dụng công cụ tìm kiếm để đánh giá thông tin."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "we report fleiss’s kappa ( *κ* ) to indicate the reliability of agreement between human labelers. we compute *κ* on 5 *,* 000 annotated samples and obtain *κ* = 0 *.* 811 ( 0 *.* 80 *≤* *κ ≤* 1 *.* 00 ) showing a perfect agreement.",
+      "reasoning": "The passage mentions Fleiss's Kappa being used to measure inter-rater reliability. The obtained value of 0.811 falls within the range indicating perfect agreement."
+    },
+    "question": "Giá trị Kappa Fleiss là bao nhiêu và nó cho thấy điều gì về sự đồng thuận giữa những người đánh giá?",
+    "answer": "Giá trị Kappa Fleiss là 0.811, cho thấy sự đồng thuận hoàn hảo giữa những người đánh giá."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we produce a total of 30 *,* 000 hallucinated samples with 10 *,* 000 examples for each task of qa, dialogue, and summarization",
+      "reasoning": "The document states the exact number of hallucinated samples produced for each task."
+    },
+    "question": "Tổng cộng có bao nhiêu mẫu được tạo ra cho mỗi nhiệm vụ hỏi đáp, đối thoại và tóm tắt?",
+    "answer": "Có 10,000 mẫu cho mỗi nhiệm vụ hỏi đáp, đối thoại và tóm tắt."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "among the annotated chatgpt responses, 977 responses are labeled as containing hallucination ( 19 *.* 5% )",
+      "reasoning": "The document mentions the number of ChatGPT responses containing hallucination and its percentage. We can infer what this percentage represents."
+    },
+    "question": "Trong số các phản hồi được chú thích từ ChatGPT, tỷ lệ phản hồi bị coi là chứa thông tin sai lệch (hallucination) là bao nhiêu?",
+    "answer": "Khoảng 19.5% phản hồi được đánh dấu là chứa thông tin sai lệch."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "with our benchmark, researchers can use it to investigate or mitigate the hallucination issue for llms in three aspects. firstly, based on our generated and annotated samples, researchers can use",
+      "reasoning": "The document describes how the benchmark can be used by researchers to investigate or mitigate the hallucination issue for LLMs."
+    },
+    "question": "Các nhà nghiên cứu có thể sử dụng benchmark này để làm gì liên quan đến vấn đề 'ảo giác' (hallucination) ở các mô hình ngôn ngữ lớn?",
+    "answer": "Các nhà nghiên cứu có thể sử dụng benchmark này để điều tra hoặc giảm thiểu vấn đề 'ảo giác' ở các mô hình ngôn ngữ lớn."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "researchers can use them to analyze what types of content llms tend to generate hallucinations.",
+      "reasoning": "The question directly asks about the first use case mentioned in the text."
+    },
+    "question": "Các mẫu đã tạo và chú thích có thể được sử dụng để làm gì trong việc nghiên cứu về LLM?",
+    "answer": "Các nhà nghiên cứu có thể sử dụng chúng để phân tích loại nội dung mà LLM có xu hướng tạo ra ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "researchers can further evaluate the ability of llms to recognize hallucinations in the generated samples.",
+      "reasoning": "The question requires understanding the second use case and inferring the action performed by the LLMs."
+    },
+    "question": "Ngoài việc tạo ra nội dung, LLM còn có thể làm gì với các mẫu đã tạo?",
+    "answer": "LLM có thể được đánh giá khả năng nhận biết các ảo giác trong các mẫu đã tạo."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "for example, given a question and an answer, llms can be asked to determine whether the answer contains",
+      "reasoning": "The question requires understanding of the process of hallucination recognition and the elements involved."
+    },
+    "question": "Để đánh giá khả năng nhận biết ảo giác của LLM, điều gì cần được cung cấp cho LLM?",
+    "answer": "Một câu hỏi và một câu trả lời cần được cung cấp cho LLM để xác định xem câu trả lời có chứa ảo giác hay không."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "to use our benchmark, users can run the code in our project repository to conduct the corresponding evaluation and analysis.",
+      "reasoning": "The document explicitly states that users can run code in the project repository to use the benchmark."
+    },
+    "question": "Người dùng có thể sử dụng benchmark này bằng cách nào?",
+    "answer": "Người dùng có thể chạy mã trong kho lưu trữ dự án để tiến hành đánh giá và phân tích tương ứng."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "since the samples in our benchmark are specially designed for testing the hallucinations of llms.",
+      "reasoning": "The document mentions that the benchmark is designed for testing hallucinations in LLMs, implying that it helps identify if LLMs are hallucinating."
+    },
+    "question": "Benchmark này dùng để làm gì?",
+    "answer": "Benchmark này được thiết kế đặc biệt để kiểm tra khả năng tạo thông tin sai lệch (hallucinations) của các mô hình ngôn ngữ lớn (LLMs)."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "our benchmark can be further paired with human annotation to assess whether the llms’ output contains hallucinations",
+      "reasoning": "The text suggests a combination of the benchmark with human annotation to assess the LLM's output. It implies that the benchmark alone might not be sufficient for complete assessment and human validation adds value."
+    },
+    "question": "Tại sao nên kết hợp benchmark này với đánh giá của con người?",
+    "answer": "Để đánh giá xem kết quả đầu ra của LLM có chứa thông tin sai lệch hay không, việc kết hợp benchmark với đánh giá của con người sẽ giúp tăng độ chính xác."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "claude 2  69.78 64.73 57.75 75.00",
+      "reasoning": "The question asks for the accuracy score of Claude 2. This value can be read directly from the table."
+    },
+    "question": "Độ chính xác của Claude 2 trong việc phân loại nội dung ảo giác là bao nhiêu?",
+    "answer": "Độ chính xác của Claude 2 là 69.78 64.73 57.75 75.00."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "alpaca 6.68 17.55 20.63 9.54",
+      "reasoning": "The question requires comparing the accuracy score of Alpaca with other models in classifying hallucinated content. Since Alpaca has the lowest scores, it can be inferred that it's the least accurate."
+    },
+    "question": "Trong số các mô hình được liệt kê, mô hình nào có vẻ kém chính xác nhất trong việc phân loại nội dung ảo giác?",
+    "answer": "Alpaca có vẻ là mô hình kém chính xác nhất."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "table 5: accuracy (%) of classifying whether a sample contains hallucinated contents.",
+      "reasoning": "The table title explicitly states that the values represent accuracy in classifying hallucinated content.  The question probes understanding of the table's purpose."
+    },
+    "question": "Bảng này cung cấp thông tin gì về các mô hình ngôn ngữ lớn?",
+    "answer": "Bảng này cung cấp thông tin về độ chính xác của các mô hình ngôn ngữ lớn trong việc phân loại xem một mẫu có chứa nội dung ảo giác hay không."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we evaluate several state-of the-art llms in halueval benchmark.",
+      "reasoning": "The question asks which benchmark was used to evaluate the LLMs. The document states that the halueval benchmark was used."
+    },
+    "question": "Những mô hình ngôn ngữ lớn (LLMs) tiên tiến đã được đánh giá bằng chuẩn nào?",
+    "answer": "Chúng được đánh giá bằng chuẩn halueval."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "our experiments were performed without fine-tuning or engaging in the tuning of hyper-parameters.",
+      "reasoning": "The question asks if fine-tuning was used. The document explicitly says that the experiments were performed without fine-tuning."
+    },
+    "question": "Các thử nghiệm được thực hiện có sử dụng fine-tuning hay không?",
+    "answer": "Không, các thử nghiệm được thực hiện mà không có fine-tuning."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "we experiment on five closed-source llms, including openai’s gpt-3 ( davinci ) (brown et al., 2020), instructgpt ( text-davinci-002/003 ) (ouyang et al., 2022), chatgpt ( gpt-3.5-turbo ) and anthropic’s claude and claude 2 models, which can only be accessed through their apis.",
+      "reasoning": "The question requires identifying the closed-source models from the listed models and counting them."
+    },
+    "question": "Có bao nhiêu mô hình ngôn ngữ lớn (LLM) nguồn đóng đã được thử nghiệm trong số các mô hình GPT-3, InstructGPT, ChatGPT, Claude và Claude 2?",
+    "answer": "Có năm mô hình ngôn ngữ lớn (LLM) nguồn đóng đã được thử nghiệm."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we execute the generation process of hallucinated samples using azure openai chatgpt api.",
+      "reasoning": "The question asks about the API used for generating hallucinated samples, which is directly stated in the provided context."
+    },
+    "question": "API nào được sử dụng để tạo ra các mẫu bịa đặt?",
+    "answer": "Azure OpenAI ChatGPT API được sử dụng để tạo ra các mẫu bịa đặt."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we use a temperature of 1 *.* 0 to generate samples and set the maximum number of tokens for generation to 256 .",
+      "reasoning": "The question asks about the maximum number of tokens used for generation, which is explicitly stated in the provided text."
+    },
+    "question": "Số lượng token tối đa được đặt cho quá trình tạo mẫu là bao nhiêu?",
+    "answer": "Số lượng token tối đa được đặt là 256."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "for evaluation, we set the temperature to zero for all models to reduce output randomness and ensure more focused and deterministic outputs.",
+      "reasoning": "The question asks why the temperature is set to zero for evaluation. The text explicitly states that this is done to reduce output randomness and ensure more focused and deterministic outputs."
+    },
+    "question": "Tại sao nhiệt độ được đặt thành 0 khi đánh giá các mô hình?",
+    "answer": "Nhiệt độ được đặt thành 0 để giảm tính ngẫu nhiên của kết quả và đảm bảo kết quả tập trung và xác định hơn."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the state-of-the-art chatgpt model cannot distin guish between factual and hallucinated summary and only achieves 58.53% accuracy in text summarization",
+      "reasoning": "The answer is directly stated in the document."
+    },
+    "question": "Mô hình ChatGPT đạt độ chính xác bao nhiêu trong việc phân loại tóm tắt văn bản thực tế và tóm tắt bịa đặt?",
+    "answer": "Mô hình ChatGPT đạt độ chính xác 58.53% trong việc phân loại tóm tắt văn bản thực tế và tóm tắt bịa đặt."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "gpt-3 obtains just about random chance of 50% accuracy across three tasks, and alpaca or vicuna even performs worse (well below random chance)",
+      "reasoning": "The document states that GPT-3 achieves around 50% accuracy, and Alpaca/Vicuna perform worse. This implies that Alpaca/Vicuna's accuracy is lower than 50%."
+    },
+    "question": "So với GPT-3, độ chính xác của Alpaca và Vicuna trong các tác vụ tương tự như thế nào?",
+    "answer": "Alpaca và Vicuna có độ chính xác thấp hơn so với GPT-3 trong các tác vụ tương tự."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "instruction tuning and alignment with humans can strength the ability of llms in identifying the hallucinations in text.",
+      "reasoning": "The document explicitly states that instruction tuning and alignment with humans improve LLMs' ability to detect hallucinations. This suggests that these methods are effective in enhancing the model's performance in this area."
+    },
+    "question": "Những phương pháp nào có thể giúp cải thiện khả năng của các mô hình ngôn ngữ lớn (LLM) trong việc xác định thông tin bịa đặt trong văn bản?",
+    "answer": "Việc điều chỉnh hướng dẫn (instruction tuning) và điều chỉnh phù hợp với con người (alignment with humans) có thể giúp cải thiện khả năng của các mô hình ngôn ngữ lớn trong việc xác định thông tin bịa đặt trong văn bản."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "over half of failures in qa, dialogue, and summarization originate from the first hallucination pattern",
+      "reasoning": "The question asks about the origin of over half of the failures in QA, dialogue, and summarization. The text states that they originate from the first hallucination pattern."
+    },
+    "question": "Phần lớn lỗi trong QA, hội thoại và tóm tắt xuất phát từ loại ảo giác nào?",
+    "answer": "Phần lớn lỗi trong QA, hội thoại và tóm tắt xuất phát từ loại ảo giác đầu tiên."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "the hallucination patterns of failed samples are unevenly distributed.",
+      "reasoning": "The question asks what the uneven distribution of hallucination patterns in failed samples indicates. The text implies that it suggests an issue with LLMs' ability to associate or understand context."
+    },
+    "question": "Sự phân bố không đồng đều của các loại ảo giác trong các mẫu lỗi cho thấy điều gì?",
+    "answer": "Điều này cho thấy các LLM thiếu hoặc không thể liên kết ngữ cảnh."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "the hallucinations that are factually correct but conflict with the context.",
+      "reasoning": "The question asks what the first hallucination pattern refers to. The text specifies that it refers to hallucinations that are factually correct but conflict with the context."
+    },
+    "question": "Mô hình ảo giác đầu tiên đề cập đến loại ảo giác nào?",
+    "answer": "Mô hình ảo giác đầu tiên đề cập đến các ảo giác đúng về mặt thực tế nhưng lại mâu thuẫn với ngữ cảnh."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we cluster all task samples into ten topics",
+      "reasoning": "The document explicitly states that the task samples are clustered into ten topics."
+    },
+    "question": "Các mẫu tác vụ được phân cụm thành bao nhiêu chủ đề?",
+    "answer": "Các mẫu tác vụ được phân cụm thành mười chủ đề."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "we find that the hallucination of llms is topicsensitive. for example, the frequent topics in qa include film, school, and company. While, chatgpt mainly fails to recognize those samples in the topics of film, company, and band.",
+      "reasoning": "The document mentions that ChatGPT struggles with film, company, and band topics, while QA includes film, school, and company. Therefore, we can infer that ChatGPT fails more often on 'band' topics compared to 'school' topics based on the provided information."
+    },
+    "question": "So với chủ đề 'trường học', ChatGPT gặp khó khăn hơn với chủ đề nào?",
+    "answer": "ChatGPT gặp khó khăn hơn với chủ đề 'ban nhạc'."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "chatgpt mainly faces challenges in topics of technology, climate, and language.",
+      "reasoning": "The document explicitly states that ChatGPT faces challenges in technology, climate, and language. Since the question asks which area ChatGPT struggles with, the answer should be a combination of those challenges."
+    },
+    "question": "ChatGPT gặp khó khăn trong những lĩnh vực chính nào?",
+    "answer": "ChatGPT gặp khó khăn trong các lĩnh vực công nghệ, khí hậu và ngôn ngữ."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "qa 3109 1559 245 278 1027",
+      "reasoning": "The question is directly answered by retrieving the number associated with 'qa' and 'p-iii'."
+    },
+    "question": "Trong bộ dữ liệu QA, ChatGPT không nhận ra bao nhiêu mẫu cho kiểu ảo giác p-iii?",
+    "answer": "1027"
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "dialogue 891 465 344 82",
+      "reasoning": "The question requires understanding that the numbers listed are failures, and inferring that the number of failures for p-ii in the dialogue dataset represents the answer."
+    },
+    "question": "Đối với bộ dữ liệu hội thoại (dialogue), ChatGPT thất bại trong việc nhận dạng kiểu ảo giác p-ii bao nhiêu lần?",
+    "answer": "82"
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "summarization 3868 3106 705 57",
+      "reasoning": "The question requires comparing the total number of tasks with the number of failures. The prompt focuses on the summarization task."
+    },
+    "question": "Trong các tác vụ tóm tắt (summarization), ChatGPT thất bại bao nhiêu lần so với tổng số tác vụ?",
+    "answer": "3106 trên tổng số 3868 tác vụ."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "retrieving relevant knowledge is a widely used strategy to eliminate hallucination",
+      "reasoning": "The document explicitly states that retrieving relevant knowledge is a strategy to reduce hallucinations in LLMs."
+    },
+    "question": "Chiến lược nào thường được sử dụng để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn?",
+    "answer": "Lấy thông tin liên quan là một chiến lược phổ biến để loại bỏ ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "therefore, we supply chatgpt with the knowledge facts retrieved from wikipedia",
+      "reasoning": "The document mentions using Wikipedia to provide ChatGPT with factual knowledge. This implies that Wikipedia is considered a reliable source of information."
+    },
+    "question": "Wikipedia được sử dụng để cung cấp thông tin cho ChatGPT. Điều này ngụ ý gì về độ tin cậy của Wikipedia?",
+    "answer": "Điều này ngụ ý rằng Wikipedia được coi là một nguồn thông tin đáng tin cậy."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "except for that summarization does not need external information besides",
+      "reasoning": "The document mentions that summarization tasks do not require external information. This implies that other tasks might benefit from such external information."
+    },
+    "question": "Ngoại trừ tóm tắt, những loại nhiệm vụ nào khác có thể hưởng lợi từ thông tin bên ngoài?",
+    "answer": "Các nhiệm vụ khác ngoài tóm tắt có thể hưởng lợi từ thông tin bên ngoài."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the recognition accuracy of chatgpt increases significantly ( *e.g.,* increasing from 62.59 to 76.83 in qa)",
+      "reasoning": "The question asks for the quantitative impact of providing knowledge on ChatGPT's recognition accuracy in QA tasks. The document directly states the increase from 62.59 to 76.83."
+    },
+    "question": "Việc cung cấp kiến thức ảnh hưởng như thế nào đến độ chính xác nhận dạng của ChatGPT trong các tác vụ QA, và cụ thể là tăng từ bao nhiêu lên bao nhiêu?",
+    "answer": "Độ chính xác nhận dạng của ChatGPT tăng đáng kể, ví dụ như tăng từ 62.59% lên 76.83% trong QA."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "we hypothesize that the common hallucination patterns in dialogue ( *i.e.,* extrinsicsoft/hard) cannot be simply identified via incorporating external knowledge",
+      "reasoning": "The question asks about the effectiveness of external knowledge in addressing hallucination patterns in dialogue. The document suggests that incorporating external knowledge alone might not be sufficient to identify these patterns effectively."
+    },
+    "question": "Theo tài liệu, việc bổ sung kiến thức bên ngoài có hiệu quả như thế nào trong việc giảm thiểu các vấn đề ảo giác thường gặp trong hội thoại của ChatGPT?",
+    "answer": "Việc bổ sung kiến thức bên ngoài có thể không đủ để giải quyết các vấn đề ảo giác thường gặp trong hội thoại."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "for those general user\nqueries and chatgpt responses, we discover that\nproviding external knowledge does have a significant benefit. thus, equipping llms with external\nknowledge can largely enhance their abilities to\nrecognize hallucinations.",
+      "reasoning": "The question requires synthesizing information about the benefits of external knowledge. The document indicates a significant benefit for general user queries and ChatGPT responses, leading to enhanced hallucination recognition abilities for LLMs."
+    },
+    "question": "Việc trang bị cho các mô hình ngôn ngữ lớn (LLMs) kiến thức bên ngoài có tác dụng gì đối với khả năng nhận biết thông tin sai lệch?",
+    "answer": "Việc trang bị cho LLMs kiến thức bên ngoài có thể giúp tăng cường khả năng nhận biết thông tin sai lệch."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "chain-of-thought (cot) has been proposed to improve the ability of llms to perform reasoning and derive the final answer by introducing a series of intermediate reasoning steps.",
+      "reasoning": "The question directly asks about the purpose of Chain-of-Thought (CoT) as described in the document. The answer is directly stated in the provided context."
+    },
+    "question": "Mục đích của việc sử dụng Chain-of-Thought (CoT) là gì?",
+    "answer": "Chain-of-Thought (CoT) được đề xuất để cải thiện khả năng suy luận của các mô hình ngôn ngữ lớn (LLM) và đưa ra câu trả lời cuối cùng bằng cách giới thiệu một loạt các bước suy luận trung gian."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "generating reasoning steps can mildly improve the performance but makes the model perform worse in qa and dialogue ( *e.g.,* dropping from 62.59 to 59.58).",
+      "reasoning": "The question requires inferring the impact of using Chain-of-Thought (CoT) on question answering and dialogue tasks based on the performance drop mentioned in the document."
+    },
+    "question": "Việc tạo ra các bước suy luận ảnh hưởng như thế nào đến hiệu suất của mô hình trong các tác vụ trả lời câu hỏi và đối thoại?",
+    "answer": "Việc tạo ra các bước suy luận có thể làm giảm hiệu suất của mô hình trong các tác vụ trả lời câu hỏi và đối thoại."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "while, in text summarization, generating reasoning steps improve the accuracy from 58.53 to 61.21. the reason might be that the factual contradiction between document and summary can be identified through logic reasoning.",
+      "reasoning": "The question requires understanding why Chain-of-Thought (CoT) improves accuracy in text summarization but not in question answering, based on the provided context which highlights the ability to identify factual contradictions."
+    },
+    "question": "Tại sao việc tạo ra các bước suy luận lại cải thiện độ chính xác trong tóm tắt văn bản, nhưng không cải thiện trong trả lời câu hỏi?",
+    "answer": "Có thể là do việc suy luận logic giúp xác định các mâu thuẫn thực tế giữa văn bản gốc và bản tóm tắt, điều này quan trọng trong tóm tắt văn bản, nhưng không quan trọng bằng trong trả lời câu hỏi."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "distinguishing between right and hallucinated samples achieves the worst results",
+      "reasoning": "The document explicitly states that distinguishing between correct and hallucinated samples yields the poorest outcomes."
+    },
+    "question": "Việc phân biệt giữa các mẫu đúng và các mẫu bịa đặt mang lại kết quả như thế nào?",
+    "answer": "Việc phân biệt giữa các mẫu đúng và các mẫu bịa đặt mang lại kết quả tệ nhất."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "we hypothesize that our generated hallucinated samples have a high similarity to the real samples, thus making llms confused to distinguish them.",
+      "reasoning": "The text explains that the reason distinguishing between real and hallucinated samples is difficult is because the generated hallucinated samples are very similar to the real samples."
+    },
+    "question": "Tại sao các LLM lại gặp khó khăn trong việc phân biệt giữa các mẫu thật và các mẫu bịa đặt?",
+    "answer": "Các LLM gặp khó khăn vì các mẫu bịa đặt được tạo ra có độ tương đồng cao với các mẫu thật."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "this test also indicates that our benchmark is very challenging in hallucination evaluation for llms.",
+      "reasoning": "The text concludes that the test highlights the benchmark's high level of difficulty when it comes to evaluating hallucination in LLMs."
+    },
+    "question": "Bài kiểm tra này cho thấy điều gì về tiêu chuẩn đánh giá (benchmark) trong việc đánh giá khả năng tạo thông tin sai lệch (hallucination) của LLM?",
+    "answer": "Bài kiểm tra này cho thấy tiêu chuẩn đánh giá rất khó khăn trong việc đánh giá khả năng tạo thông tin sai lệch của LLM."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "in the first example, the generated span ( *i.e.,* “july 4, 1776 - declaration of independence signing”) contains hallucinated information because it gives a wrong time of declaration of independence signing.",
+      "reasoning": "The question asks for a specific example of hallucination. The passage explicitly states the wrong date given for the Declaration of Independence signing as an example."
+    },
+    "question": "Ví dụ nào được đề cập trong đoạn văn về việc ChatGPT tạo ra thông tin sai lệch?",
+    "answer": "ChatGPT đã đưa ra ngày sai về thời điểm ký Tuyên ngôn Độc lập, cụ thể là \"4 tháng 7 năm 1776 - ký Tuyên ngôn Độc lập\"."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "to demonstrate the effectiveness of knowledge retrieval in mitigating hallucinations, we present two hallucinated responses from chatgpt and refined responses after augmented with retrieved knowledge in table 7.",
+      "reasoning": "The question requires understanding the purpose of using external knowledge. The passage mentions that providing external knowledge helps mitigate and recognize hallucinations in LLMs."
+    },
+    "question": "Theo đoạn văn, việc cung cấp kiến thức bên ngoài cho các mô hình ngôn ngữ lớn (LLM) có tác dụng gì?",
+    "answer": "Việc cung cấp kiến thức bên ngoài giúp giảm thiểu và nhận biết các thông tin sai lệch (hallucinations) trong các mô hình ngôn ngữ lớn."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "analogously, in the second example, chatgpt gives incorrect gdp growth rates of china and india, which is due to that api-based",
+      "reasoning": "The question requires understanding the context and identifying the type of error made by ChatGPT. The passage mentions incorrect GDP growth rates as the mistake."
+    },
+    "question": "Ngoài ví dụ về Tuyên ngôn Độc lập, ChatGPT còn đưa ra thông tin sai lệch nào khác được đề cập trong đoạn văn?",
+    "answer": "ChatGPT đã đưa ra các số liệu tăng trưởng GDP không chính xác của Trung Quốc và Ấn Độ."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "chatgpt cannot access the web to obtain the official data",
+      "reasoning": "The answer is directly stated in the document."
+    },
+    "question": "ChatGPT có thể truy cập internet để lấy dữ liệu chính thức không?",
+    "answer": "Không, ChatGPT không thể truy cập internet để lấy dữ liệu chính thức."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "retrieving knowledge related to queries can help chatgpt significantly reduce the hallucinations in the response, especially those factual errors.",
+      "reasoning": "The document implies that retrieving relevant knowledge can improve ChatGPT's accuracy by reducing factual errors."
+    },
+    "question": "Việc truy xuất kiến thức liên quan đến truy vấn có lợi ích gì cho ChatGPT?",
+    "answer": "Việc truy xuất kiến thức liên quan đến truy vấn có thể giúp ChatGPT giảm đáng kể các lỗi sai, đặc biệt là các lỗi sai về mặt thực tế."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "after providing official information retrieved from world bank, the refined span displays answers that contain the correct information.",
+      "reasoning": "This requires understanding the example and inferring the general principle. Providing official information (e.g., from the World Bank) improves the accuracy of ChatGPT's responses."
+    },
+    "question": "Điều gì xảy ra khi ChatGPT được cung cấp thông tin chính thức, ví dụ như thông tin từ Ngân hàng Thế giới?",
+    "answer": "Khi ChatGPT được cung cấp thông tin chính thức từ các nguồn như Ngân hàng Thế giới, các câu trả lời của nó sẽ chính xác hơn."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "hallucination in llms is concerning since it hinders performance and raises safety risks in real-world application",
+      "reasoning": "The answer is directly stated in the document about the concerns of hallucination."
+    },
+    "question": "Tại sao hiện tượng ảo giác (hallucination) trong các mô hình ngôn ngữ lớn (LLM) lại đáng lo ngại?",
+    "answer": "Hiện tượng ảo giác trong các LLM đáng lo ngại vì nó cản trở hiệu suất và làm tăng rủi ro an toàn trong các ứng dụng thực tế."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "prior studies have proposed to use a verification system to identify non-factual entities in text summarization (zhao et al., 2020), invoke interfaces of structured data ( *e.g.,* knowledge graph, database) to obtain related evidence (jiang et al., 2023; lan et al., 2022), and train a token-level fact critic to recognize hallucination and rectify them in dialogue (dziri et al., 2021)",
+      "reasoning": "The question asks about methods to reduce hallucination. The context directly describes different methods to solve this problem."
+    },
+    "question": "Các nghiên cứu trước đây đã đề xuất những phương pháp nào để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn?",
+    "answer": "Các nghiên cứu trước đây đã đề xuất sử dụng hệ thống xác minh để xác định các thực thể phi thực tế trong tóm tắt văn bản, sử dụng các giao diện của dữ liệu có cấu trúc để có được bằng chứng liên quan và đào tạo một 'fact critic' ở cấp độ token để nhận ra và khắc phục ảo giác trong đối thoại."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "to alleviate this issue, prior studies have proposed to use a verification system to identify non-factual entities in text summarization (zhao et al., 2020), invoke interfaces of structured data ( *e.g.,* knowledge graph, database) to obtain related evidence (jiang et al., 2023; lan et al., 2022), and train a token-level fact critic to recognize hallucination and rectify them in dialogue (dziri et al., 2021).",
+      "reasoning": "The question requires understanding the purpose of the mentioned methods and their relationship to the overall goal of improving LLMs. The context provides examples of how hallucination is addressed, implying the overarching goal."
+    },
+    "question": "Mục tiêu chung của việc sử dụng hệ thống xác minh, khai thác dữ liệu có cấu trúc và đào tạo 'fact critic' trong bối cảnh các mô hình ngôn ngữ lớn là gì?",
+    "answer": "Mục tiêu chung là giảm thiểu hiện tượng ảo giác và nâng cao độ tin cậy của thông tin do các mô hình ngôn ngữ lớn tạo ra."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "our work is closely related to these work, but we focus on building a hallucination evaluation benchmark for llms.",
+      "reasoning": "The question asks about the focus of the authors' work, which is stated directly in the provided context."
+    },
+    "question": "Công trình nghiên cứu này tập trung vào điều gì liên quan đến các mô hình ngôn ngữ lớn (LLMs)?",
+    "answer": "Công trình này tập trung vào việc xây dựng một chuẩn đánh giá ảo giác cho các mô hình ngôn ngữ lớn (LLMs)."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "our dataset can serve as a public platform for exhibiting the blind spots of llms in solving hallucination.",
+      "reasoning": "The question asks about the purpose of the dataset. The document states that the dataset can serve as a public platform for exhibiting the blind spots of LLMs in solving hallucination. Therefore, it can be inferred that it can help reveal the weaknesses of LLMs related to hallucination."
+    },
+    "question": "Dữ liệu được đề cập trong đoạn văn có thể giúp ích gì trong việc nghiên cứu về các mô hình ngôn ngữ lớn?",
+    "answer": "Dữ liệu này có thể giúp bộc lộ những điểm yếu của các mô hình ngôn ngữ lớn trong việc giải quyết vấn đề ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "another line of work focusing on evaluating the hallucination of models in different nlp tasks",
+      "reasoning": "The question asks about the overall trend of research mentioned. The document mentions research focusing on evaluating hallucination in models in different NLP tasks, indicating a trend towards hallucination evaluation."
+    },
+    "question": "Xu hướng chung của các nghiên cứu được đề cập trong đoạn văn là gì?",
+    "answer": "Xu hướng chung là tập trung vào việc đánh giá ảo giác của các mô hình trong các nhiệm vụ xử lý ngôn ngữ tự nhiên khác nhau."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the attributable to identified sources (ais) benchmark (rashkin et al., 2021) assesses whether the source documents support the output of text generation models.",
+      "reasoning": "The question asks about the purpose of the AIS benchmark. The answer is directly stated in the provided context: to assess whether the source documents support the output of text generation models."
+    },
+    "question": "Mục đích của benchmark AIS (Attributable to Identified Sources) là gì?",
+    "answer": "Benchmark AIS đánh giá xem các tài liệu nguồn có hỗ trợ đầu ra của các mô hình tạo văn bản hay không."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "though these benchmarks can serve as decent evaluation platform, they are penurious in only focusing on single tasks ( *e.g.,* dialogue) and small models ( *e.g.,* dpr).",
+      "reasoning": "The question requires inferring the limitation of existing benchmarks. The context states that these benchmarks are limited because they focus on single tasks and small models, indicating a lack of broader applicability."
+    },
+    "question": "Một trong những hạn chế của các benchmark hiện tại là gì?",
+    "answer": "Các benchmark hiện tại thường chỉ tập trung vào các tác vụ đơn lẻ và các mô hình nhỏ, điều này hạn chế khả năng áp dụng rộng rãi của chúng."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "in this work, our halueval benchmark includes general user queries and chatgpt responses and proposes a two-step automatic process to generate hallucinated samples for evaluation, which is completely based on llms.",
+      "reasoning": "The question asks about the method used to generate hallucinated samples. The answer is found in the text, which describes a two-step automatic process based on LLMs."
+    },
+    "question": "Phương pháp nào được sử dụng để tạo ra các mẫu 'ảo giác' (hallucinated samples) trong benchmark Halueval?",
+    "answer": "Một quy trình tự động hai bước hoàn toàn dựa trên các mô hình ngôn ngữ lớn (LLMs) được sử dụng để tạo ra các mẫu 'ảo giác'."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "we introduce halueval, a large-scale collection of generated and human-annotated hallucinated samples for evaluating the performance of llms in recognizing hallucinations.",
+      "reasoning": "The answer is directly stated in the first sentence of the document."
+    },
+    "question": "Halueval là gì?",
+    "answer": "Halueval là một bộ sưu tập quy mô lớn gồm các mẫu ảo giác được tạo và chú thích bởi con người, dùng để đánh giá hiệu suất của các mô hình ngôn ngữ lớn (LLM) trong việc nhận biết ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "to automatically generate large-scale samples, we propose a two-step approach, *i.e.,* sampling-then-filtering.",
+      "reasoning": "The text describes a two-step approach for generating samples, namely sampling and filtering. Thus, it is reasonable to infer that the approach involves selecting the most challenging samples after the initial sampling."
+    },
+    "question": "Phương pháp hai bước được đề xuất để tạo mẫu quy mô lớn có bao gồm việc chọn lọc mẫu không?",
+    "answer": "Có, phương pháp này bao gồm việc chọn lọc và chọn ra các mẫu khó."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "finally, we suggest several strategies to help llms recognize hallucinations. our benchmark can facilitate research in understanding what types of content and to which extent llms tend to hallucinate, ultimately paving the way for building more effective and reliable llms in the future.",
+      "reasoning": "The text states that the benchmark can facilitate research in understanding the types and extent of hallucinations, which then leads to building more effective and reliable LLMs. Therefore, the ultimate goal is to improve the reliability of LLMs."
+    },
+    "question": "Mục tiêu cuối cùng của việc nghiên cứu và xây dựng các công cụ đánh giá ảo giác trong mô hình ngôn ngữ lớn là gì?",
+    "answer": "Mục tiêu cuối cùng là xây dựng các mô hình ngôn ngữ lớn hiệu quả và đáng tin cậy hơn."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the quality of our hallucinated samples\nis limited by the capacity of chatgpt in following\nthe complex instruction of hallucination sampling.",
+      "reasoning": "The passage explicitly states that the quality of hallucinated samples is limited by ChatGPT's capacity to follow complex instructions."
+    },
+    "question": "Điều gì giới hạn chất lượng của các mẫu ảo giác được tạo ra?",
+    "answer": "Chất lượng của các mẫu ảo giác bị giới hạn bởi khả năng của ChatGPT trong việc tuân theo các hướng dẫn phức tạp để lấy mẫu ảo giác."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "although we design the high-quality hallucination\nfiltering process, it is still necessary to apply quality\ncontrol to the generation of hallucinated samples.",
+      "reasoning": "The phrase 'it is still necessary to apply quality control' implies that the filtering process, while high-quality, is not perfect and requires additional quality checks."
+    },
+    "question": "Quá trình lọc ảo giác chất lượng cao có đủ để đảm bảo chất lượng của các mẫu ảo giác không?",
+    "answer": "Không, vẫn cần phải áp dụng kiểm soát chất lượng cho việc tạo ra các mẫu ảo giác, mặc dù đã có quá trình lọc chất lượng cao."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "our benchmark focuses on evaluating the\nability of llms in recognizing the hallucinations in\ntext but does not investigate the underlying reasons\nbehind the appearance of hallucinations like prior\nwork (zheng et al., 2023; das et al., 2023).",
+      "reasoning": "The text explicitly states that the benchmark focuses on recognition but not on the underlying reasons, indicating a limitation in scope compared to other research."
+    },
+    "question": "Điểm chuẩn này tập trung vào điều gì liên quan đến ảo giác và nó khác với các nghiên cứu trước đây như thế nào?",
+    "answer": "Điểm chuẩn này tập trung vào việc đánh giá khả năng của LLM trong việc nhận biết ảo giác trong văn bản, nhưng không điều tra các lý do cơ bản đằng sau sự xuất hiện của ảo giác, khác với các nghiên cứu trước đây."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "the appendix is organized into three sections",
+      "reasoning": "The document explicitly states the appendix is organized into three sections."
+    },
+    "question": "Phụ lục này được chia thành mấy phần chính?",
+    "answer": "Phụ lục này được chia thành ba phần chính."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "instructions of hallucination sampling are presented in appendix a",
+      "reasoning": "The document states that appendix A contains hallucination sampling instructions."
+    },
+    "question": "Hướng dẫn lấy mẫu ảo giác được trình bày ở phần nào của phụ lục?",
+    "answer": "Hướng dẫn lấy mẫu ảo giác được trình bày trong phụ lục A."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "the hallucination recognition instructions for qa, dialogue and summarization are shown in table 13, table 14 and table 15, respectively.",
+      "reasoning": "The document directly mentions that the hallucination recognition instructions for QA, dialogue, and summarization are in Tables 13, 14, and 15."
+    },
+    "question": "Bảng nào cung cấp hướng dẫn nhận dạng ảo giác cho các nhiệm vụ như QA, hội thoại và tóm tắt?",
+    "answer": "Bảng 13, 14 và 15 cung cấp hướng dẫn nhận dạng ảo giác cho QA, hội thoại và tóm tắt."
+  },
+  {
+    "metadata": {
+      "question_type": "factual",
+      "required_context": "qa 10000 2280 1378 5102 1240",
+      "reasoning": "The question asks for the number of samples for hallucination pattern p-iv in the 'qa' task. The table provides this data directly."
+    },
+    "question": "Có bao nhiêu mẫu được tạo ra cho kiểu ảo giác p-iv trong nhiệm vụ qa?",
+    "answer": "Có 1240 mẫu được tạo ra cho kiểu ảo giác p-iv trong nhiệm vụ qa."
+  },
+  {
+    "metadata": {
+      "question_type": "inferential",
+      "required_context": "tasks #sample p-i p-ii p-iii p-iv",
+      "reasoning": "The question asks about the different types of tasks. Based on the table, we can infer the tasks are 'qa', 'dialogue' and 'summa'."
+    },
+    "question": "Những loại nhiệm vụ nào được đề cập trong bảng này?",
+    "answer": "Các nhiệm vụ được đề cập là qa, dialogue và summa."
+  },
+  {
+    "metadata": {
+      "question_type": "analytical",
+      "required_context": "summa. 10000 2614 3562 3824",
+      "reasoning": "The question requires comparing the number of samples for p-iii in 'summa' and 'qa'. The table provides the values for both, allowing for a direct comparison."
+    },
+    "question": "Số lượng mẫu cho kiểu ảo giác p-iii trong nhiệm vụ summa có nhiều hơn hay ít hơn so với nhiệm vụ qa?",
+    "answer": "Số lượng mẫu cho kiểu ảo giác p-iii trong nhiệm vụ summa (3824) nhiều hơn so với nhiệm vụ qa (5102)."
+  }
+]

@@ -1,0 +1,709 @@
+[
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and fully grounded in the document. The answer is concise and grammatically correct. There are no phrases like \"theo đoạn văn\" or \"theo tài liệu\" or \"theo ngữ cảnh\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and in Vietnamese. The answer is also in Vietnamese and seemingly correct based on the provided document (six researchers are listed). There's no context dependence. The answer seems accurate and concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is fully grounded in the document. Therefore, the pair meets all quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the quality criteria. The answer is directly derived from the document, and the question is clear and well-formed.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the provided document. The answer is concise and grammatically correct. There are no phrases like \"theo đoạn văn\" or \"theo tài liệu\" or \"theo ngữ cảnh\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and grammatically correct. The answer is also accurate, complete, concise, and grammatically correct, and is fully grounded in the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, complete, and concise, and it is fully grounded in the provided document. Therefore, the question-answer pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear, and the answer is accurate and grounded in the document. The answer doesn't contain any phrases like \"theo đoạn văn\" or \"theo tài liệu\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and the answer is accurate and grounded in the document. The answer does not contain any hallucination and is concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question asks about the impact of LLMs on NLP, and the answer accurately states that it has ushered in a paradigm shift. The answer is grounded in the document. The language is Vietnamese, the question is clear, and the answer is of good quality.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, complete, concise, and grammatically correct. The answer is grounded in the provided document, specifically the phrase \"remarkable language ability makes llms core in a number of products with millions of users\". Therefore, the question-answer pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise and grammatically correct. The answer is also accurate, complete, concise, and grammatically correct. It directly addresses the question based on the provided document. The language is Vietnamese, with the English term \"hallucination generations\" appropriately used. There are no issues with context independence or hallucination.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question-answer pair violates the context independence criteria as the question contains \"Theo tài liệu này\".",
+    "violate_criteria": [
+      "context_independence"
+    ],
+    "judge": 0
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the question is clear and well-formed. The answer is also accurate and grounded in the document. The question and answer are also context-independent.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the question is clear and well-formed. The answer accurately reflects the information provided in the document, specifically stating that current studies focus on investigating the causes of hallucination for specific tasks and small language models. There is no hallucination or information not present in the document. The answer is concise and complete.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the answer is extracted directly from the document. The question is clear and well-formed.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed in Vietnamese. The answer is also in Vietnamese and accurately reflects the information provided in the document, specifically that HALUEVAL chooses queries with low similarity between ChatGPT responses because low similarity may indicate that the model is generating incorrect information (hallucination). The answer is concise and doesn't include any information not found in the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, well-formed, and in Vietnamese. The answer is also in Vietnamese, accurate, concise, and directly supported by the document (\"đối thoại dựa trên tri thức và tóm tắt văn bản\"). There are no signs of hallucination or context dependence.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the quality criteria. The answer is directly extracted from the document, and the question is clear and unambiguous.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear, and the answer is accurate and grounded in the provided document. There are no signs of hallucination or context dependence.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, complete, concise, and grammatically correct, and it is fully grounded in the document. The answer does not contain any hallucinations. The question and answer are self-contained.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the answer is grounded in the document. The question is clear and well-formed, and the answer is accurate and concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is accurate, concise, and grounded in the provided document. The answer also correctly addresses what ChatGPT is used for in the hallucination sample selection process and what this implies about the selection process.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the quality criteria. The answer is directly extracted from the document, so it is not hallucinated. The question is clear and well-formed.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is accurate, concise, and completely grounded in the provided document. The language is Vietnamese, and there are no issues with context independence.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and fully grounded in the provided document. The answer is also concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are in Vietnamese and satisfy the language constraint. The question and answer are self-contained and do not refer to the document, satisfying the context independence. The question is clear and grammatically correct. The answer is accurate and complete, as the document states that experiments with LLMs help understand their performance in halueval, which concerns hallucination recognition. Therefore, the answer meets the answer quality and hallucination criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question does not contain phrases like \"theo đoạn văn\" or \"theo tài liệu\". The question is well-formed, unambiguous, grammatically correct, and natural. The answer is accurate, complete, concise, and grammatically correct. The answer is fully grounded in the provided document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and do not violate the context independence. The question is clear and the answer is accurate and concise based on the document. The answer is fully supported by the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, grammatically correct, and in Vietnamese. The answer is also in Vietnamese, accurate, concise, and grounded in the provided document. It correctly identifies the method to improve hallucination recognition and the counterproductive method.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and do not violate the language constraint. The question and answer are self-contained and do not refer to external context. The question is clear, well-formed, and grammatically correct. The answer is accurate, complete, concise, and grammatically correct, and is fully grounded in the provided document. Hence, the question-answer pair meets all quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and can be understood without additional context. The answer is accurate and can be found in the document. Therefore, the question-answer pair meet the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair satisfy all the quality criteria. The question is clear and natural. The answer is in Vietnamese and accurately reflects the information in the document. It is also concise and grammatically correct.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer accurately reflects the information provided in the document chunk. The answer is concise and complete.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the answer is accurate, concise, and grounded in the document. The question is clear and natural. The question and answer are also self-contained.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and do not contain English. The question is clear and can be understood without additional context. The answer is also grounded in the document. Therefore, the answer meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document. The answer quality is good.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and grammatically correct. The answer is also accurate, complete, and concise, and it is directly supported by the provided document. The question and answer are both in Vietnamese, with the technical term \"đàm thoại\" correctly translated. There are no phrases like \"theo đoạn văn\" or \"theo tài liệu\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and grammatically correct. The answer is also grammatically correct and relevant to the document. However, the answer contains a word in Russian, which violates the language constraint.",
+    "violate_criteria": [
+      "language_constraint"
+    ],
+    "judge": 0
+  },
+  {
+    "reasoning": "The question asks about the components of hallucination sampling instruction according to the mentioned design approach. The answer accurately lists the three components: intention description, hallucination pattern, and hallucination demonstration, as stated in the document. The language is Vietnamese, and the answer is self-contained and grammatically correct. The question is also clear and well-formed.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the quality criteria. The answer is grounded in the provided document and accurately describes the purpose of the intention description in the hallucination sampling process.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to all quality criteria. The answer accurately reflects the information presented in the document chunk.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and in Vietnamese. The answer is also in Vietnamese, accurate, and grounded in the provided document chunk. The question and answer are also context-independent. Therefore, the question-answer pair meets all the specified criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is accurate, concise, and directly supported by the provided document, which mentions the four types of hallucination patterns considered for question answering: comprehension, factual-ness, specificity, and inference. The language is also correct.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, well-formed, and in Vietnamese. The answer accurately reflects the information provided in the document regarding the number and types of hallucination patterns for text summarization. The answer is concise and complete.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, the question is clear and the answer is concise. The answer is also grounded in the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is concise and correct. The answer is grounded in the document, which mentions generating 'hallucinated examples'. The question and answer are in Vietnamese. There are no phrases like 'theo đoạn văn'.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair are both in Vietnamese, and the question is clear. The answer is concise and accurate based on the provided document. The answer is grounded in the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is accurate, concise, and directly derived from the document. There are no signs of hallucination or context dependence. The language is also correct.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and grammatically correct. The answer is also accurate, complete, and grounded in the document. The question and answer are both in Vietnamese.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and are self-contained. The question is clear and grammatically correct. The answer is accurate and complete based on the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and concise, asking about the total number of hallucinated samples generated. The answer accurately states that 30,000 hallucinated samples were created, which is directly supported by the document. The language is Vietnamese and the answer is self-contained.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document, stating that the hallucinated samples are used to evaluate LLMs in hallucination recognition. The answer also avoids context-dependent phrases.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the language constraint. The question is clear and grammatically correct. The answer accurately reflects the information provided in the document, stating that the process involves sampling and filtering. The answer is concise and complete based on the document's content. Therefore, the QA pair meets all quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question asks about the purpose of inviting labelers, and the answer accurately states that it is to evaluate whether ChatGPT's responses contain hallucinated content. The question and answer are both in Vietnamese and are self-contained. The answer is fully grounded in the provided document and is accurate, complete, concise, and grammatically correct. Therefore, the QA pair meets all criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and grammatically correct. The answer is accurate and concise, and it's grounded in the document, which mentions that the Alpaca dataset is used by recent LLMs, implying its use for training or evaluation. The answer is also context-independent.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, complete, and concise. The answer is grounded in the document, which describes a process to \"screen out user queries where llms are most likely to produce hallucination for labeling\". The question and answer are self-contained and do not rely on external context.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed, and the answer is accurate, complete, concise, and grammatically correct. The answer is grounded in the provided document. The question and answer are context-independent.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, well-formed, and in Vietnamese. The answer is also in Vietnamese, accurately describing the \"cat with blue ribbon\" photo as a cat sitting on a table, looking at the camera, and wearing a blue ribbon. This information is directly from the provided document. Therefore, the question-answer pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair are both in Vietnamese and adhere to the language constraint. The question is clear and grammatically correct. The answer is accurate, concise, and directly addresses the question. The answer also doesn't contain any context-dependent phrases. Therefore, the pair meets all quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is accurate and directly supported by the document. The language is Vietnamese and the answer doesn't contain any hallucination.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document. The answer is concise and complete. Therefore, the question-answer pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question-answer pair is in Vietnamese and asks about signs of hallucination in responses. The answer accurately states that hallucinations are likely to appear in diverged and conflicting responses of LLMs, which is directly supported by the document. The question is clear and the answer is concise and accurate.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, well-formed, and in Vietnamese. The answer is also accurate, complete, concise, and grammatically correct. The answer is fully grounded in the document. Therefore, the question-answer pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, concise, and fully grounded in the document. The answer doesn't contain any context-dependent phrases. Therefore, the QA pair meets all the criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and concise, and the answer is accurate and complete based on the provided document chunk. The answer is also self-contained and does not rely on external context. There is no hallucination.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and grammatically correct. The answer is also accurate, complete, and grounded in the provided document. The language is Vietnamese. There are no context-dependent phrases. Therefore, the question-answer pair meets all quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and concise. The answer is grounded in the document, which mentions that annotating hallucination in ChatGPT responses requires good reading comprehension skills and using search engine to look up relevant information for judgement. Therefore, the QA pair meets all criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and the answer is concise and accurate based on the document. The answer does not contain any hallucination.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the quality criteria. The answer is directly extracted from the document, and the question is clear and well-formed.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and are self-contained. The question is clear and the answer is accurate and concise based on the document. No hallucination is present.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair are both in Vietnamese and adhere to the language constraint. The question is clear and well-formed. The answer accurately reflects the content of the provided document, stating that researchers can use the benchmark to investigate or mitigate the hallucination issue. There are no signs of hallucination or context dependence. The answer is also concise and grammatically correct.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is accurate and grounded in the provided document. The language is Vietnamese, and there are no issues with context independence.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and complete, and it is grounded in the provided document. The question and answer are also context-independent.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and directly supported by the document. The answer is complete and concise. The question and answer are context-independent, so there are no violations.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and follow all the quality criteria. The answer can be found in the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer accurately reflects the information presented in the document, specifically that the benchmark is designed for testing the hallucinations of LLMs. There are no signs of hallucination and the answer is concise and grammatically correct.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, the question is clear, and the answer is accurate and completely based on the provided document. The answer explains that the benchmark should be combined with human evaluation to assess whether the LLM output contains hallucinations.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question asks about the accuracy of Claude 2 in classifying hallucinated content. The answer provides the accuracy scores for Claude 2, which are directly found in the document. The question and answer are both in Vietnamese and the answer is self-contained and doesn't rely on external context.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed. The answer is accurate and grounded in the document. It correctly identifies Alpaca as the least accurate model based on the provided accuracy percentages.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the question is clear and well-formed. The answer is accurate and grounded in the provided document, as the table is titled \"accuracy (%) of classifying whether a sample contains hallucinated contents.\"",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document, and does not contain any hallucinations. The answer is concise and directly answers the question.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the answer is directly stated in the document. The question is clear and the answer is accurate and concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and grammatically correct. The answer is factually correct and can be found in the document. The question and answer are in Vietnamese. The answer is self-contained and does not rely on external context.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and directly supported by the document. No phrases like \"theo đoạn văn\" are used.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and do not violate the language constraint. The question is clear and grammatically correct. The answer is accurate and directly stated in the document. There is no hallucination or context dependence. The answer is concise and complete.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and are grammatically correct. The question is clear and the answer is accurate and grounded in the document. The answer is also complete and concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair meet all the specified criteria. The question is in Vietnamese, clear, and grammatically correct. The answer is also in Vietnamese, accurate, concise, and directly derived from the provided document. No hallucinations or context-dependent phrases are present.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to all quality criteria. The answer accurately reflects the information presented in the document. The question is clear, concise, and relevant to the document's content.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair meet all the required criteria. The language is Vietnamese, the question is clear and well-formed, the answer is accurate, concise, and grounded in the provided document, and there are no contextual dependencies.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and grammatical. The answer is accurate and grounded in the document, referring to the first hallucination pattern being the source of most errors in QA, dialogue, and summarization. There are no phrases like \"theo đoạn văn\" or \"theo tài liệu\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the provided document. No hallucinations are present. The answer is concise and grammatically correct. There are no phrases like \"theo đoạn văn\" or \"theo tài liệu\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and grammatically correct. The answer is also accurate, complete, and fully grounded in the document. The answer is in Vietnamese, and does not contain any hallucination or contextual errors.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document. The answer also doesn't contain contextual phrases like \"theo đoạn văn\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The answer is not correct based on the document. The document says that ChatGPT mainly fails to recognize those samples in the topics of film, company, and band. It doesn't mention that ChatGPT has more difficulty with 'ban nhạc' than 'trường học'.",
+    "violate_criteria": [
+      "hallucination"
+    ],
+    "judge": 0
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The answer is grounded in the document. The question is clear, and the answer is accurate, complete, and concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair meet all the specified criteria. The question is clear, well-formed, and in Vietnamese. The answer is accurate and directly extracted from the provided document, without any hallucination or additional context needed. The answer is also concise and grammatically correct.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question-answer pair satisfy all the quality criteria. The question is in Vietnamese, self-contained, clear, and natural. The answer is accurate, complete, concise, and grammatically correct, and is fully grounded in the provided document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and do not violate context independence. The question is clear and well-formed. The answer is accurate, complete, and concise, and it is fully grounded in the provided document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document, stating that retrieving relevant knowledge is a strategy to eliminate hallucination. The answer is concise and complete.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and grammatically correct. The answer is also accurate and concise, based on the document which states that Wikipedia is used to provide information for ChatGPT. This implies that Wikipedia is considered a reliable source of information. The question and answer are in Vietnamese, and there are no issues with context independence or hallucination.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The answer is incomplete and does not provide specific tasks that benefit from external information. The question is clear, but the answer is too vague and does not fulfill the prompt.",
+    "violate_criteria": [
+      "answer_quality"
+    ],
+    "judge": 0
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear, well-formed, and grammatically correct. The answer is accurate, concise, and directly supported by the document. There are no signs of hallucination or context dependence.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question violates the context independence criterion because it contains \"Theo tài liệu\".",
+    "violate_criteria": [
+      "context_independence"
+    ],
+    "judge": 0
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and grammatically correct. The answer is accurate, concise, and grounded in the provided document. The answer does not contain hallucination.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise, and in Vietnamese. The answer is accurate, complete, and grounded in the document. The question and answer are context-independent. Therefore, the QA pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to all quality criteria. The question is clear, and the answer accurately reflects the information provided in the document chunk.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document. The answer explains that generating reasoning steps can improve accuracy in text summarization because it helps identify factual contradictions between the document and summary. However, it doesn't improve performance in question answering, possibly because identifying factual contradictions is not as crucial in that task.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are in Vietnamese and grammatically correct. The question is clear and the answer is accurate and grounded in the provided document. There is no hallucination or context dependence.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document, stating that LLMs struggle because the fabricated samples are highly similar to the real samples. The answer is also concise and grammatically correct. There are no phrases like \"theo đoạn văn\" or \"theo tài liệu\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and do not violate the language constraint. The question is clear and well-formed. The answer is concise and accurately reflects the information in the provided document chunk. The answer is also self-contained and does not rely on external context.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear, concise and grammatically correct. The answer is also clear, concise and grammatically correct. It also doesn't contain information outside of the document. Therefore, it meets all quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question asks about the effect of providing external knowledge to LLMs according to the document. The answer accurately states that providing external knowledge helps mitigate and recognize hallucinations in LLMs, which is directly supported by the document. However, the question violates the context independence criteria.",
+    "violate_criteria": [
+      "context_independence"
+    ],
+    "judge": 0
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and concise, and the answer accurately reflects the information presented in the document. No hallucinations or context dependence are present.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair meet all the specified quality criteria. The question is clear, well-formed, and in Vietnamese. The answer is also in Vietnamese, accurate, concise, and directly supported by the provided document chunk. There are no hallucinations or context-dependent phrases.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair satisfy all the quality criteria. The question is clear and grammatically correct, asking about the benefits of knowledge retrieval for ChatGPT. The answer accurately reflects the information provided in the document, stating that it helps reduce factual errors. The language is Vietnamese, and there are no context-dependent phrases used.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and meet all the quality criteria. The answer is directly supported by the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, the question is clear and well-formed, and the answer is accurate, concise, and grounded in the provided document. The question and answer are also context-independent.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and grammatically correct. The answer is accurate, complete, and concise, and it is fully grounded in the provided document. The question and answer are also in Vietnamese and self-contained.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question is clear and well-formed in Vietnamese. The answer accurately reflects the information presented in the document regarding the purpose of using verification systems, structured data, and fact critics in the context of large language models. No hallucinations or unsupported claims are present. The answer is concise and grammatically correct.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and are context-independent. The question is clear and well-formed. The answer is accurate and complete, as it is directly stated in the provided document. Therefore, the question-answer pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the quality criteria. The question is clear, and the answer is grounded in the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and grounded in the document. The answer does not contain any hallucination. There is no context independence issue.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair are both in Vietnamese, the question is clear, and the answer is directly stated in the document. The answer is also concise and accurate.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer pair are both in Vietnamese. The answer is grounded in the document. The question is clear and well-formed. The answer is accurate, complete, and concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, concise, and completely based on the document. No hallucination. The question and answer are context-independent.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, complete, and concise, and it is fully grounded in the provided document. There are no phrases like \"theo đoạn văn\" or \"theo tài liệu\" or \"theo ngữ cảnh\".",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate and concise, and it is grounded in the provided document (\"đề xuất một phương pháp hai bước, *i.e.,* sampling-then-filtering. we first introduce two different sampling methods to generate diverse samples using instructions and then filter and select the difficult one.\"). The question and answer are also context-independent.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer is accurate, concise, and directly supported by the document's conclusion, which states that the research aims to pave the way for building more effective and reliable LLMs in the future.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to the language constraint. The question is clear, well-formed, and grammatically correct. The answer is accurate, concise, and directly derived from the document. There are no signs of hallucination or context dependence. Therefore, the QA pair meets all quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese, and the answer is grounded in the document. The question is clear and well-formed. The answer is accurate and concise.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear and well-formed. The answer accurately reflects the content of the document, specifically stating that the benchmark focuses on evaluating LLMs' ability to recognize hallucinations but doesn't investigate the reasons behind them, unlike previous studies. There are no hallucinations or context-dependent phrases.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. However, the answer is incorrect. The appendix is divided into four sections, not three. Therefore, it violates the answer quality.",
+    "violate_criteria": [
+      "answer_quality"
+    ],
+    "judge": 0
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and adhere to all quality criteria. The answer is directly stated in the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese and do not contain any English other than technical terms like QA. The question is clear and well-formed. The answer is accurate, complete, and concise based on the document. The answer is fully grounded in the document and does not hallucinate any information.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question and answer are both in Vietnamese. The question is clear, well-formed, and grammatically correct. The answer is accurate, complete, and concise, and it is grounded in the provided document. Therefore, the question-answer pair meets all the quality criteria.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question asks about the types of tasks mentioned in the table. The answer correctly identifies 'qa', 'dialogue', and 'summa' as the task types. The language is Vietnamese, the question and answer are self-contained, the question is clear, and the answer is accurate and complete based on the document.",
+    "violate_criteria": [],
+    "judge": 1
+  },
+  {
+    "reasoning": "The question asks for a comparison of the number of hallucination type p-iii between summa and qa tasks. The answer states that summa has more than qa, but the document shows that summa has 3824 and qa has 1240. The answer is not correct based on the document.",
+    "violate_criteria": [
+      "answer_quality",
+      "hallucination"
+    ],
+    "judge": 0
+  }
+]
