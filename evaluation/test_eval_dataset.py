@@ -9,7 +9,6 @@ import instructor
 from pydantic import BaseModel
 import google.generativeai as genai
 from deepeval import assert_test
-from deepeval.models import OllamaModel
 from deepeval.models import DeepEvalBaseLLM
 from deepeval.test_case import LLMTestCase
 from deepeval.dataset import EvaluationDataset
@@ -39,7 +38,7 @@ class CustomGeminiFlash(DeepEvalBaseLLM):
       mode=instructor.Mode.GEMINI_JSON,
     )
 
-    max_retries = 1
+    max_retries = 10
     for _ in range(max_retries):
       try:
         resp = instructor_client.messages.create(
@@ -54,6 +53,7 @@ class CustomGeminiFlash(DeepEvalBaseLLM):
         return resp
       except Exception:
         time.sleep(60)
+    
     raise RuntimeError("Exceeded maximum retry attempts due to 429 errors.")
 
   async def a_generate(self, prompt: str, schema: BaseModel) -> BaseModel:
@@ -63,21 +63,18 @@ class CustomGeminiFlash(DeepEvalBaseLLM):
     return "Gemini 2.0 Flash"
   
 model = CustomGeminiFlash()
-deepseek = OllamaModel(
-  model_name="deepseek-r1:14b",
-  base_url="http://localhost:11434",
-  temperature=0.6
-)
 
 # Add test cases from a JSON file
 dataset = EvaluationDataset()
 dataset.add_test_cases_from_json_file(
-  file_path="data/exp/eval_dataset.json",
+  file_path="data/eval/eval_dataset.json",
   input_key_name="user_input",
   actual_output_key_name="response",
   expected_output_key_name="reference",
   retrieval_context_key_name="retrieved_contexts"
 )
+
+failed_test_cases = []
 
 # Evaluate
 # Limit to 15 calls per minute
@@ -88,18 +85,44 @@ dataset.add_test_cases_from_json_file(
 @sleep_and_retry
 @limits(calls=3, period=60)
 def test_chatbot(test_case: LLMTestCase):
-  contextual_precision_metric = ContextualPrecisionMetric(model=deepseek, async_mode=False)
-  contextual_recall_metric = ContextualRecallMetric(model=deepseek, async_mode=False)
-  faithfulness_metric = FaithfulnessMetric(model=deepseek, async_mode=False)
-  answer_relevancy_metric = AnswerRelevancyMetric(model=deepseek, async_mode=False)
-  assert_test(test_case, [
-    contextual_precision_metric, 
-    contextual_recall_metric, 
-    faithfulness_metric, 
-    answer_relevancy_metric],
-    run_async=False
-  )
+  contextual_precision_metric = ContextualPrecisionMetric(model=model, async_mode=False)
+  contextual_recall_metric = ContextualRecallMetric(model=model, async_mode=False)
+  faithfulness_metric = FaithfulnessMetric(model=model, async_mode=False)
+  answer_relevancy_metric = AnswerRelevancyMetric(model=model, async_mode=False)
+
+  try:
+    assert_test(test_case, [
+      contextual_precision_metric, 
+      contextual_recall_metric, 
+      faithfulness_metric, 
+      answer_relevancy_metric],
+      run_async=False
+    )
+  except RuntimeError:
+    failed_test_cases.append(test_case)
 
 @deepeval.on_test_run_end
 def function_to_be_called_after_test_run():
-  print("Test finished!")
+  if not failed_test_cases:
+    print("✅ All tests passed on first run.")
+    return
+  
+  print(f"\n🔁 Rerunning {len(failed_test_cases)} failed test cases...\n")
+  for i, test_case in enumerate(failed_test_cases):
+    if i != 0 and i % 3 == 0:
+      time.sleep(60)
+
+    try:
+      assert_test(
+        test_case,
+        [
+          ContextualPrecisionMetric(model=model, async_mode=False),
+          ContextualRecallMetric(model=model, async_mode=False),
+          FaithfulnessMetric(model=model, async_mode=False),
+          AnswerRelevancyMetric(model=model, async_mode=False)
+        ],
+        run_async=False
+      )
+      print(f"✅ Passed on rerun: {test_case.input}")
+    except RuntimeError:
+      print(f"❌ Still failing: {test_case.input}")

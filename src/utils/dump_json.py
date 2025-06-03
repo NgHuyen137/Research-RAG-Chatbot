@@ -2,7 +2,7 @@ import os
 import json
 
 
-def dump_json(data: dict, output_path: str="../data/review.json") -> None:
+def dump_json(data: dict, output_path: str="../data/reviews.json") -> None:
   """
     Store RAG results in a JSON file for reviewing
   """

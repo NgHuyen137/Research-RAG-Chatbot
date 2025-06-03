@@ -4,7 +4,6 @@ from langchain_core.messages import HumanMessage, AIMessage, RemoveMessage
 from langgraph.graph import END
 
 import re
-import time
 from typing import Any, Dict, List
 from .state import State
 from ..rag import (
@@ -34,9 +33,9 @@ def query_routing(state: State, config: dict):
   query_routing_chain = query_routing_prompt | llm | JsonOutputParser()
   query_class = query_routing_chain.invoke({"summary": summary, "messages": state["messages"], "query": query})
 
-  if query_class["class"] == "no-retrieve":
+  if query_class["class"] == "no-retrieve" and len(state["messages"]) >= 3:
     return "chatbot"
-  if query_class["class"] == "simple":
+  if query_class["class"] == "simple" or (query_class["class"] == "no-retrieve" and len(state["messages"]) < 3):
     return "query_rewrite" 
   if query_class["class"] == "complex":
     return "query_decompose"
@@ -94,7 +93,6 @@ def chatbot(state: State, config: dict) -> Dict[str, Any]:
   )
   messages += state["messages"]
   res = llm.invoke(messages)
-
   res_text = res.content
   res_text = re.sub(r"```markdown|```", "", res_text).strip()
   return {"messages": [AIMessage(content=res_text)]}

@@ -8,7 +8,7 @@ class CustomMultiQueryRetriever:
     self.queries = queries
     self.config = config
 
-  def rerank_documents(self, query: str, docs: List[str], top_k: int=3) -> List[str]:
+  def rerank_documents(self, query: str, docs: List[str], top_k: int=5) -> List[str]:
     """
       Calculate a relevance score between each query-document pair & Return top-k relevant documents 
     """
@@ -38,7 +38,7 @@ class CustomMultiQueryRetriever:
       "param": {
         "metric_type": "COSINE"
       },
-      "limit": 5
+      "limit": 10
     }
     request_1 = AnnSearchRequest(**dense_search_param)
 
@@ -50,7 +50,7 @@ class CustomMultiQueryRetriever:
         "metric_type": "IP",
         "params": {"drop_ratio_build": 0.2}
       },
-      "limit": 5
+      "limit": 10
     }
     request_2 = AnnSearchRequest(**sparse_search_param)
     reqs = [request_1, request_2]
@@ -59,7 +59,7 @@ class CustomMultiQueryRetriever:
     results = collection.hybrid_search(
       reqs=reqs,
       rerank=RRFRanker(60),
-      limit=5,
+      limit=10,
       output_fields=["text"]
     )
     

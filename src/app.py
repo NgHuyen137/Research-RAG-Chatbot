@@ -81,15 +81,13 @@ def main():
     response = ""
     for msg, metadata in st.session_state.graph_builder.stream({"messages": [input_message]}, st.session_state.config, stream_mode="messages"):
       if metadata["langgraph_node"] == "chatbot":
-        response += msg.content
+        response = msg.content
         response_placeholder.markdown(response)
     st.session_state.messages.append({"role": "assistant", "content": response})
     
     # Store results
     data = dict()
-    data["original_query"] = prompt
-    data["rewritten_queries"] = st.session_state.graph_builder.get_state(st.session_state.config).values["rewritten_queries"]
-    data["relevant_documents"] = [doc for doc in st.session_state.graph_builder.get_state(st.session_state.config).values["retrieved_docs"]]
+    data["query"] = prompt
     data["response"] = response  
     dump_json(data)
     

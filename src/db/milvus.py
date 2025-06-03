@@ -1,16 +1,19 @@
-import os
 from pymilvus import (
   FieldSchema,
   CollectionSchema,
   DataType,
   Collection,
-  connections
+  connections,
+  utility
 )
 
 
 def get_collection(collection_name: str) -> Collection:
   # Connect to Milvus server
-  connections.connect(host=os.getenv("MILVUS_HOST"), port=os.getenv("MILVUS_PORT"))
+  connections.connect(host="localhost", port="19530")
+
+  if utility.has_collection(collection_name):
+    utility.drop_collection(collection_name)
 
   # Define collection schema
   fields = [
